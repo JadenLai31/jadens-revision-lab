@@ -883,14 +883,26 @@ function cards() {
   cardIndex = ((cardIndex % cards.length) + cards.length) % cards.length;
   const card = cards[cardIndex];
   host.append(h("p", `Card ${cardIndex + 1} of ${cards.length}`));
-  const flash = button(
-    `${flipped ? "Definition" : "Term"}: ${flipped ? card.back : card.front}`,
-    () => {
+  const face = flipped ? "Definition" : "Term";
+  const text = flipped ? card.back : card.front;
+  const flash = h("button", null, {
+    type: "button",
+    class: "flash pack-flashcard",
+    "aria-label": `${face}: ${text}`,
+    "aria-pressed": String(flipped),
+    "data-flipped": String(flipped),
+    onclick: () => {
       flipped = !flipped;
       redraw();
     },
+  });
+  flash.append(
+    h("small", face, { class: "pack-flashcard-label" }),
+    h("strong", text, { class: "pack-flashcard-text" }),
+    h("span", flipped ? "Tap to return to the term ↻" : "Tap to reveal the definition ↻", {
+      class: "pack-flashcard-hint",
+    }),
   );
-  flash.classList.add("flash");
   host.append(flash);
   if (flipped)
     host.append(
