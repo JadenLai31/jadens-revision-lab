@@ -1,0 +1,842 @@
+[
+  {
+    "id": "FC001",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "foundations",
+    "front": "Explain energy.",
+    "back": "Capacity to do work or cause change.",
+    "explanation": "Capacity to do work or cause change.",
+    "source_reference": [
+      "S:Notes; E:Q6–9"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC002",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "foundations",
+    "front": "Explain joule.",
+    "back": "SI unit of energy, symbol J.",
+    "explanation": "SI unit of energy, symbol J.",
+    "source_reference": [
+      "S:Notes; E:Q6–9"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC003",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "foundations",
+    "front": "Explain kilojoule.",
+    "back": "1000 joules, symbol kJ.",
+    "explanation": "1000 joules, symbol kJ.",
+    "source_reference": [
+      "S:Notes; E:Q6–9"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC004",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "foundations",
+    "front": "Explain work.",
+    "back": "Energy transferred mechanically when a force acts through a displacement.",
+    "explanation": "Energy transferred mechanically when a force acts through a displacement.",
+    "source_reference": [
+      "S:Notes; E:Q6–9"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC005",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "kinetic",
+    "front": "Explain kinetic energy.",
+    "back": "Energy an object has because it moves relative to the chosen frame.",
+    "explanation": "Energy an object has because it moves relative to the chosen frame.",
+    "source_reference": [
+      "S:Formulas; E:Q10–14"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC006",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "kinetic",
+    "front": "Explain mass.",
+    "back": "Amount of matter, measured in kilograms in these formulas.",
+    "explanation": "Amount of matter, measured in kilograms in these formulas.",
+    "source_reference": [
+      "S:Formulas; E:Q10–14"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC007",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "kinetic",
+    "front": "Explain speed.",
+    "back": "Distance travelled per unit time; use m/s in the kinetic-energy formula.",
+    "explanation": "Distance travelled per unit time; use m/s in the kinetic-energy formula.",
+    "source_reference": [
+      "S:Formulas; E:Q10–14"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC008",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "potential",
+    "front": "Explain potential energy.",
+    "back": "Energy stored because of position or condition.",
+    "explanation": "Energy stored because of position or condition.",
+    "source_reference": [
+      "S:Formulas; E:Q15–20"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC009",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "potential",
+    "front": "Explain gravitational potential energy.",
+    "back": "Energy associated with position in a gravitational field.",
+    "explanation": "Energy associated with position in a gravitational field.",
+    "source_reference": [
+      "S:Formulas; E:Q15–20"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC010",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "potential",
+    "front": "Explain elastic potential energy.",
+    "back": "Energy stored by elastic deformation such as stretching or compression.",
+    "explanation": "Energy stored by elastic deformation such as stretching or compression.",
+    "source_reference": [
+      "S:Formulas; E:Q15–20"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC011",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "potential",
+    "front": "Explain extension.",
+    "back": "Increase in length compared with the unstretched length.",
+    "explanation": "Increase in length compared with the unstretched length.",
+    "source_reference": [
+      "S:Formulas; E:Q15–20"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC012",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "forms",
+    "front": "Explain chemical energy.",
+    "back": "Energy associated with chemical substances, including food and battery materials.",
+    "explanation": "Energy associated with chemical substances, including food and battery materials.",
+    "source_reference": [
+      "S:Types of energy; E:Q1–5"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC013",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "forms",
+    "front": "Explain nuclear energy.",
+    "back": "Energy associated with atomic nuclei.",
+    "explanation": "Energy associated with atomic nuclei.",
+    "source_reference": [
+      "S:Types of energy; E:Q1–5"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC014",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "forms",
+    "front": "Explain thermal energy.",
+    "back": "Energy associated with microscopic particle motion and interactions.",
+    "explanation": "Energy associated with microscopic particle motion and interactions.",
+    "source_reference": [
+      "S:Types of energy; E:Q1–5"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC015",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "forms",
+    "front": "Explain sound.",
+    "back": "Energy transfer through vibrations in a medium.",
+    "explanation": "Energy transfer through vibrations in a medium.",
+    "source_reference": [
+      "S:Types of energy; E:Q1–5"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC016",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "forms",
+    "front": "Explain light.",
+    "back": "Energy transfer by electromagnetic waves.",
+    "explanation": "Energy transfer by electromagnetic waves.",
+    "source_reference": [
+      "S:Types of energy; E:Q1–5"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC017",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "transfers",
+    "front": "Explain energy transfer.",
+    "back": "Energy moving from one object or place to another.",
+    "explanation": "Energy moving from one object or place to another.",
+    "source_reference": [
+      "S:Law of conservation; E:Q21–30"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC018",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "transfers",
+    "front": "Explain energy transformation.",
+    "back": "A change in energy form.",
+    "explanation": "A change in energy form.",
+    "source_reference": [
+      "S:Law of conservation; E:Q21–30"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC019",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "transfers",
+    "front": "Explain conservation of energy.",
+    "back": "Total energy cannot be created or destroyed.",
+    "explanation": "Total energy cannot be created or destroyed.",
+    "source_reference": [
+      "S:Law of conservation; E:Q21–30"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC020",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "transfers",
+    "front": "Explain system.",
+    "back": "The objects or region chosen for an energy analysis.",
+    "explanation": "The objects or region chosen for an energy analysis.",
+    "source_reference": [
+      "S:Law of conservation; E:Q21–30"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC021",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "efficiency",
+    "front": "Explain useful energy.",
+    "back": "Energy output in the form intended for the task.",
+    "explanation": "Energy output in the form intended for the task.",
+    "source_reference": [
+      "S:Energy Efficiency; S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC022",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "efficiency",
+    "front": "Explain wasted energy.",
+    "back": "Energy transferred in forms less useful for the intended task; it is not destroyed.",
+    "explanation": "Energy transferred in forms less useful for the intended task; it is not destroyed.",
+    "source_reference": [
+      "S:Energy Efficiency; S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC023",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "efficiency",
+    "front": "Explain efficiency.",
+    "back": "Useful output energy divided by total input energy, usually expressed as a percentage.",
+    "explanation": "Useful output energy divided by total input energy, usually expressed as a percentage.",
+    "source_reference": [
+      "S:Energy Efficiency; S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC024",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "efficiency",
+    "front": "Explain rebound percentage.",
+    "back": "Rebound height divided by release height times 100, with consistent height definitions.",
+    "explanation": "Rebound height divided by release height times 100, with consistent height definitions.",
+    "source_reference": [
+      "S:Energy Efficiency; S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC025",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "circuits",
+    "front": "Explain circuit.",
+    "back": "An electrical arrangement that can provide conducting paths; an open circuit has an interrupted path.",
+    "explanation": "An electrical arrangement that can provide conducting paths; an open circuit has an interrupted path.",
+    "source_reference": [
+      "S:Electrical circuit; C:Q1–10,Q18"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC026",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "circuits",
+    "front": "Explain load.",
+    "back": "Component that transfers electrical energy into another form.",
+    "explanation": "Component that transfers electrical energy into another form.",
+    "source_reference": [
+      "S:Electrical circuit; C:Q1–10,Q18"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC027",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "circuits",
+    "front": "Explain conductor.",
+    "back": "Material through which electric charge can move readily.",
+    "explanation": "Material through which electric charge can move readily.",
+    "source_reference": [
+      "S:Electrical circuit; C:Q1–10,Q18"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC028",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "circuits",
+    "front": "Explain insulator.",
+    "back": "Material that strongly resists charge movement.",
+    "explanation": "Material that strongly resists charge movement.",
+    "source_reference": [
+      "S:Electrical circuit; C:Q1–10,Q18"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC029",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "circuits",
+    "front": "Explain short circuit.",
+    "back": "Unintended low-resistance bypass of part of a circuit.",
+    "explanation": "Unintended low-resistance bypass of part of a circuit.",
+    "source_reference": [
+      "S:Electrical circuit; C:Q1–10,Q18"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC030",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain electron.",
+    "back": "Negatively charged particle.",
+    "explanation": "Negatively charged particle.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC031",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain current.",
+    "back": "Rate of flow of electric charge.",
+    "explanation": "Rate of flow of electric charge.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC032",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain ampere.",
+    "back": "Unit of current; one coulomb per second.",
+    "explanation": "Unit of current; one coulomb per second.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC033",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain voltage.",
+    "back": "Energy transferred per unit charge between two points.",
+    "explanation": "Energy transferred per unit charge between two points.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC034",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain volt.",
+    "back": "Unit of voltage; one joule per coulomb.",
+    "explanation": "Unit of voltage; one joule per coulomb.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC035",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain resistance.",
+    "back": "Opposition to current, measured in ohms.",
+    "explanation": "Opposition to current, measured in ohms.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC036",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain ammeter.",
+    "back": "Current-measuring instrument connected in series.",
+    "explanation": "Current-measuring instrument connected in series.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC037",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain voltmeter.",
+    "back": "Voltage-measuring instrument connected across two points in parallel.",
+    "explanation": "Voltage-measuring instrument connected across two points in parallel.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC038",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Explain conventional current.",
+    "back": "Direction defined for positive charge flow; opposite electron drift in metal wires.",
+    "explanation": "Direction defined for positive charge flow; opposite electron drift in metal wires.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC039",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "ohm",
+    "front": "Explain ohm’s law.",
+    "back": "For an ohmic conductor at constant conditions, V = IR with constant R.",
+    "explanation": "For an ohmic conductor at constant conditions, V = IR with constant R.",
+    "source_reference": [
+      "S:Ohm’s law; C:Q11–16,Q19"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC040",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "networks",
+    "front": "Explain series.",
+    "back": "Components arranged along a single current path.",
+    "explanation": "Components arranged along a single current path.",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC041",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "networks",
+    "front": "Explain parallel.",
+    "back": "Branches connected across the same two points.",
+    "explanation": "Branches connected across the same two points.",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC042",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "networks",
+    "front": "Explain dc.",
+    "back": "Direct current, flowing in one direction.",
+    "explanation": "Direct current, flowing in one direction.",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC043",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "networks",
+    "front": "Explain ac.",
+    "back": "Alternating current, periodically reversing direction.",
+    "explanation": "Alternating current, periodically reversing direction.",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC044",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "networks",
+    "front": "Explain frequency.",
+    "back": "Number of complete cycles per second, measured in hertz.",
+    "explanation": "Number of complete cycles per second, measured in hertz.",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC045",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "Explain independent variable.",
+    "back": "Factor deliberately changed in an investigation.",
+    "explanation": "Factor deliberately changed in an investigation.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC046",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "Explain dependent variable.",
+    "back": "Outcome measured in an investigation.",
+    "explanation": "Outcome measured in an investigation.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC047",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "Explain controlled variable.",
+    "back": "Factor kept consistent to support a fair comparison.",
+    "explanation": "Factor kept consistent to support a fair comparison.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC048",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "Explain repeatability.",
+    "back": "Consistency of results under repeated use of the same method and conditions.",
+    "explanation": "Consistency of results under repeated use of the same method and conditions.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC049",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "Explain validity.",
+    "back": "How well an investigation supports the question and intended inference.",
+    "explanation": "How well an investigation supports the question and intended inference.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC050",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "Explain systematic error.",
+    "back": "A consistent bias or offset not removed just by repeating measurements.",
+    "explanation": "A consistent bias or offset not removed just by repeating measurements.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC051",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "Explain prototype.",
+    "back": "A preliminary design built for testing and improvement.",
+    "explanation": "A preliminary design built for testing and improvement.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC052",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "kinetic",
+    "front": "Why does doubled speed quadruple kinetic energy?",
+    "back": "Speed is squared in E_k = ½mv²; (2v)² = 4v².",
+    "explanation": "Speed is squared in E_k = ½mv²; (2v)² = 4v².",
+    "source_reference": [
+      "S:Formulas; E:Q10–14"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC053",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "transfers",
+    "front": "What must a complete transfer explanation name?",
+    "back": "The energy form, starting object/place and receiving object/place.",
+    "explanation": "The energy form, starting object/place and receiving object/place.",
+    "source_reference": [
+      "S:Law of conservation; E:Q21–30"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC054",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "efficiency",
+    "front": "Why does a lower bounce not mean energy was destroyed?",
+    "back": "Less mechanical energy is recovered because energy has been transferred to other forms and surroundings.",
+    "explanation": "Less mechanical energy is recovered because energy has been transferred to other forms and surroundings.",
+    "source_reference": [
+      "S:Energy Efficiency; S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC055",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "ohm",
+    "front": "What condition belongs with “more resistance gives less current”?",
+    "back": "Voltage must be constant; I = V/R.",
+    "explanation": "Voltage must be constant; I = V/R.",
+    "source_reference": [
+      "S:Ohm’s law; C:Q11–16,Q19"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC056",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "networks",
+    "front": "Can parallel branches have different currents?",
+    "back": "Yes. Their voltages are equal but different resistances give different currents.",
+    "explanation": "Yes. Their voltages are equal but different resistances give different currents.",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC057",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "What does repeating trials fail to fix?",
+    "back": "A systematic bias such as an incorrect ruler zero.",
+    "explanation": "A systematic bias such as an incorrect ruler zero.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC058",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "investigations",
+    "front": "What are four stages of improving a prototype?",
+    "back": "Develop, test against criteria, evaluate and improve, then retest.",
+    "explanation": "Develop, test against criteria, evaluate and improve, then retest.",
+    "source_reference": [
+      "E:Q14,Q28–31; S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice"
+  },
+  {
+    "id": "FC059",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "quantities",
+    "front": "Does a lamp consume charge?",
+    "back": "No. It transfers electrical energy while charge continues through the circuit.",
+    "explanation": "No. It transfers electrical energy while charge continues through the circuit.",
+    "source_reference": [
+      "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17"
+    ],
+    "source_alignment_status": "source_supported"
+  },
+  {
+    "id": "FC060",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6",
+    "topic": "foundations",
+    "front": "What should you check before reading a graph value?",
+    "back": "The requested category/time, axis labels, scale and units.",
+    "explanation": "The requested category/time, axis labels, scale and units.",
+    "source_reference": [
+      "S:Notes; E:Q6–9"
+    ],
+    "source_alignment_status": "source_supported"
+  }
+]

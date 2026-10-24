@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "status": "proposed_practice_not_school_specification",
+  "total_marks": 40,
+  "suggested_duration_minutes": [
+    45,
+    55
+  ],
+  "format_marks": {
+    "multiple_choice": 10,
+    "short_answer": 18,
+    "extended_response": 12
+  },
+  "difficulty_target_by_marks": {
+    "Easy": 0.25,
+    "Medium": 0.45,
+    "Hard": 0.3
+  },
+  "target_note": "Difficulty targets are configurable aspirations; forms report their actual distributions. Do not silently claim exact target compliance.",
+  "constraints": {
+    "max_pure_calculation_marks": 14,
+    "min_energy_marks": 18,
+    "min_electricity_marks": 12,
+    "min_investigation_marks": 4,
+    "unique_question_ids": true,
+    "max_same_scenario_family": 2
+  },
+  "forms": [
+    {
+      "id": "FORM-A",
+      "title": "Full Practice A",
+      "mc": [
+        "MC01",
+        "MC03",
+        "MC05",
+        "MC09",
+        "MC12",
+        "MC14",
+        "MC16",
+        "MC19",
+        "MC23",
+        "MC29"
+      ],
+      "sa": [
+        "SA01",
+        "SA05",
+        "SA10",
+        "SA12",
+        "SA15",
+        "SA22",
+        "SA27",
+        "SA29",
+        "SA39"
+      ],
+      "er": [
+        "ER01",
+        "ER07"
+      ]
+    },
+    {
+      "id": "FORM-B",
+      "title": "Full Practice B",
+      "mc": [
+        "MC02",
+        "MC06",
+        "MC08",
+        "MC10",
+        "MC13",
+        "MC15",
+        "MC18",
+        "MC22",
+        "MC25",
+        "MC11"
+      ],
+      "sa": [
+        "SA03",
+        "SA07",
+        "SA09",
+        "SA14",
+        "SA17",
+        "SA16",
+        "SA28",
+        "SA32",
+        "SA42"
+      ],
+      "er": [
+        "ER05",
+        "ER06"
+      ]
+    }
+  ],
+  "soft_preferences": [
+    "Reduce repeated command words; multiple-choice instructions may repeat for clarity.",
+    "Approach difficulty targets without sacrificing coverage.",
+    "Prefer question IDs not attempted recently.",
+    "Balance cognitive skills and calculation structures."
+  ]
+}

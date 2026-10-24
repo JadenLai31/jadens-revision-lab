@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Jaden Revision Lab question v1",
+  "type": "object",
+  "required": [
+    "id",
+    "schema_version",
+    "subject",
+    "year_level",
+    "unit",
+    "topic",
+    "subtopic",
+    "format",
+    "difficulty",
+    "cognitive_skill",
+    "scenario_family",
+    "question_text",
+    "correct_answer",
+    "explanation",
+    "marks",
+    "marking_rubric",
+    "source_reference",
+    "source_alignment_status",
+    "acceptable_alternative_answers"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "year_level": {
+      "type": "integer"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "subtopic": {
+      "type": "string"
+    },
+    "format": {
+      "enum": [
+        "multiple_choice",
+        "short_answer",
+        "extended_response"
+      ]
+    },
+    "difficulty": {
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard"
+      ]
+    },
+    "cognitive_skill": {
+      "type": "string"
+    },
+    "scenario_family": {
+      "type": "string"
+    },
+    "question_text": {
+      "type": "string",
+      "minLength": 10
+    },
+    "correct_answer": {
+      "type": "object"
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 5
+    },
+    "marks": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "marking_rubric": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "marks",
+          "criterion"
+        ],
+        "properties": {
+          "marks": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "criterion": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "source_reference": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_alignment_status": {
+      "enum": [
+        "source_supported",
+        "source_elaboration",
+        "added_practice"
+      ]
+    },
+    "acceptable_alternative_answers": {
+      "type": "array"
+    },
+    "options": {
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "supporting_data": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  }
+}

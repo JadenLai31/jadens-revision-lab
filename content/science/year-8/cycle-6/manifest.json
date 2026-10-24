@@ -1,0 +1,197 @@
+{
+  "package": "Jadens Revision Lab Cycle 6",
+  "version": "1.0.0",
+  "created": "2026-10-24",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1670,
+      "sha256": "da20e3c8e9a5110475a44a9b851113d6e0a215c92e42579d8ed876bf2ea8502d"
+    },
+    {
+      "path": "Revision-Workbook.html",
+      "bytes": 225632,
+      "sha256": "9acaf432a8e7572222f4f295c59a0aa0d54f9db98c362ca624b9e90cbb8cffc4"
+    },
+    {
+      "path": "assets/graph-a.svg",
+      "bytes": 1863,
+      "sha256": "259bf0128509c2d4471c4b37f3c7eda22a9076e75e12c3fa20885994d9f30494"
+    },
+    {
+      "path": "assets/graph-d.svg",
+      "bytes": 1965,
+      "sha256": "dfb7370b31e81acf469f5d3372241817692c892ffabe92b7e3ba21c35593f211"
+    },
+    {
+      "path": "assets/parallel-c.svg",
+      "bytes": 1329,
+      "sha256": "7372e49facdb53f02fa98eeb6e8a07e78b0c004bf88e9d9b82483969af865034"
+    },
+    {
+      "path": "assets/symbols-b.svg",
+      "bytes": 647,
+      "sha256": "6ed4301122c39d4678049aed8f140482623737a34116b9199cf6cb005e82398e"
+    },
+    {
+      "path": "data/assessment_blueprints.json",
+      "bytes": 1995,
+      "sha256": "519268375d59c927937031314c2c8d075ff204d594697f49eecd37e25e62a4a9"
+    },
+    {
+      "path": "data/conceptual_templates.json",
+      "bytes": 18795,
+      "sha256": "388168cfe0e81dfd4f8fcefa7c98582b573c1c7ce9eaa9799212b23771867622"
+    },
+    {
+      "path": "data/extended_responses.json",
+      "bytes": 31301,
+      "sha256": "4c15c78d77a877991924b7cfb5bd30be601268f6dc7ab1f906f3ee3e51a015ca"
+    },
+    {
+      "path": "data/extended_templates.json",
+      "bytes": 5952,
+      "sha256": "562b02aee846254801f627183685a4834838785606cdb33cf3a71e3e32898948"
+    },
+    {
+      "path": "data/flashcards.json",
+      "bytes": 26619,
+      "sha256": "ff35d3c552afef1f1f98d19bf3223087eca13af492e7cce1f1587aaa2f27ae01"
+    },
+    {
+      "path": "data/generated_examples.json",
+      "bytes": 37544,
+      "sha256": "d78b505acb3fe73c919aef634527b305506bfc8257e726ef6a47d5cc25fd4ff7"
+    },
+    {
+      "path": "data/independent_validation.json",
+      "bytes": 539,
+      "sha256": "bd23f30f325ae5f0895a0d02557865aa83659233903da67664d91c6c6a968ffa"
+    },
+    {
+      "path": "data/numerical_templates.json",
+      "bytes": 25561,
+      "sha256": "da04e65184aba2c2fbf20eb1c87238bd817491ee3e52700dfb703ec20e505139"
+    },
+    {
+      "path": "data/question.schema.json",
+      "bytes": 2433,
+      "sha256": "989f163fea5d00cc98fe22c050e762be995e61279383b2bd62997632021104f4"
+    },
+    {
+      "path": "data/questions.json",
+      "bytes": 135891,
+      "sha256": "4dc84c93eca8cb1c793b797cfa7afd21140da82872be615df9f422f5ab872474"
+    },
+    {
+      "path": "data/runtime_validation.json",
+      "bytes": 31910,
+      "sha256": "27b9e7d08dc073cf47fd18cf21ca8d68b64e44ea317d59ea91b3e4d81b96885b"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 1392,
+      "sha256": "fb045dade6bfd42d896fa4a65ed46ae4b80be58489918f6217bcd3eb8c7d3e3f"
+    },
+    {
+      "path": "data/template.schema.json",
+      "bytes": 1172,
+      "sha256": "92c67e30f14221775a0c839df1e6962defacb1f2bb5f8fcb6f243a8b6896ea15"
+    },
+    {
+      "path": "data/topics.json",
+      "bytes": 3064,
+      "sha256": "8f119cdb9aeb5d2ae2070b0ecf7f6ab2af4ac5b325d7085457b0ca66c3b4f51f"
+    },
+    {
+      "path": "data/validated_instances.json",
+      "bytes": 317783,
+      "sha256": "d2fa870efce7323ca055dc7ba21154f57f203abb732fd5f539603e42cc931cb7"
+    },
+    {
+      "path": "docs/Answer-Guide.md",
+      "bytes": 50471,
+      "sha256": "497c328031f220d23ebf125189f170288a38809f00b5d8fec75a64c543ebc423"
+    },
+    {
+      "path": "docs/FORM-A-Answers.md",
+      "bytes": 12404,
+      "sha256": "b53aeaa32c9ffa92841daf78151b7e244cc6610900b640005138405dac54345f"
+    },
+    {
+      "path": "docs/FORM-A-Questions.md",
+      "bytes": 5731,
+      "sha256": "5c5a20cd0855558698c5fce6360f1ec68dd1949540cb78edb651d9be5f26102a"
+    },
+    {
+      "path": "docs/FORM-B-Answers.md",
+      "bytes": 12077,
+      "sha256": "7f28106e6164fa992c5f962697cf4e586ff99ac5701d907b5d67b20661ca94fc"
+    },
+    {
+      "path": "docs/FORM-B-Questions.md",
+      "bytes": 6028,
+      "sha256": "2a8c16acdaf9079103f7f7b5ae54cf191fca63137c4e9a4477426fe74ebfea54"
+    },
+    {
+      "path": "docs/Formula-Sheet.md",
+      "bytes": 1723,
+      "sha256": "4f9dd55f72f7f6c8804ffe7afa5b12b01105bd388e8ae2be62cfb640e9cb4b33"
+    },
+    {
+      "path": "docs/Glossary-and-Flashcards.md",
+      "bytes": 5046,
+      "sha256": "4ef0348ae3989cfee6e6cf778616b9dadac77a554ed62fa8baa081ff4d19d2cc"
+    },
+    {
+      "path": "docs/Integration-Notes.md",
+      "bytes": 9988,
+      "sha256": "8694d932b741763692f7103012775bd509d7c83c7069159db49fe06d7af5429e"
+    },
+    {
+      "path": "docs/QA-Report.md",
+      "bytes": 5743,
+      "sha256": "dc14a167767c9eb816067b70b2eb7b698dd70c615fb8140f8674b7254b9872b2"
+    },
+    {
+      "path": "docs/Question-Bank.md",
+      "bytes": 21039,
+      "sha256": "1865d270b4552e4e5d4afdc59718857741b1ed3ea3c8e0ee0dfc85dc57053e95"
+    },
+    {
+      "path": "docs/Source-Analysis.md",
+      "bytes": 6802,
+      "sha256": "dd686f02e3016129924b1293ca273768d8b799b50aeed031dd57a15878a42fe3"
+    },
+    {
+      "path": "docs/Study-Guide.md",
+      "bytes": 19896,
+      "sha256": "e5796c05ac726400a853fb8a09e1520516023c514945e74b4403287b1b0ac87e"
+    },
+    {
+      "path": "docs/Template-Library.md",
+      "bytes": 22354,
+      "sha256": "2bcd80dae7dd04064716983d264ba04c890b07315775928ea13d34d5b71b97eb"
+    },
+    {
+      "path": "runtime/assessment.mjs",
+      "bytes": 3599,
+      "sha256": "94d604a18ad8eeff4212deb750ff602f38479b3126cffd40aa8cb49028cca27c"
+    },
+    {
+      "path": "runtime/generator.mjs",
+      "bytes": 9711,
+      "sha256": "2db3a763fac76363d81dda7fcbbc8c84749115bf9cf5e3b09ec076db747fd598"
+    },
+    {
+      "path": "runtime/independent_check.py",
+      "bytes": 6063,
+      "sha256": "aa8b037a7a9164c3e9773d6a8700f66ccd9dea5a329a6ce52c355e672154e101"
+    },
+    {
+      "path": "runtime/validate.mjs",
+      "bytes": 4149,
+      "sha256": "ce83add5bbebb149af8c1e23a94af78bc7045357e8f9b6523d7a88bf57079eec"
+    }
+  ]
+}

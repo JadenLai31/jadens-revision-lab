@@ -1,0 +1,194 @@
+[
+  {
+    "template_id": "X01",
+    "template_kind": "extended_response",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "rebound-budget",
+    "context": "Calculate rebound percentage, explain energy changes, then critique a release method.",
+    "question_template": "Calculate rebound percentage, explain energy changes, then critique a release method.",
+    "variable_definitions": {
+      "drop": {
+        "allowed_values": [
+          80,
+          100,
+          120
+        ],
+        "unit": "cm",
+        "description": "Release height above the consistent contact reference"
+      },
+      "percent": {
+        "allowed_values": [
+          50,
+          60,
+          75
+        ],
+        "unit": "%",
+        "description": "Useful-output or recovered-height percentage used to construct valid data"
+      }
+    },
+    "generation_constraints": [
+      "Use only allowed values.",
+      "Keep the release-from-rest/ideal-source/no-extra-input conditions in the prompt.",
+      "Update answers and rubric values together."
+    ],
+    "answer_generation_rules": {
+      "function_id": "extended_rebound"
+    },
+    "explanation_generation_rules": {
+      "function_id": "extended_rebound"
+    },
+    "marks": 6,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Energy Efficiency",
+      "S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "added_practice",
+    "validation_requirements": [
+      "Enumerate all permitted combinations.",
+      "Check 3 parts × 2 marks.",
+      "Verify energy and current balances."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "rebound-budget",
+      "variation_type": "numerical_within_fixed_reasoning_scenario",
+      "novel_scenario": false
+    }
+  },
+  {
+    "template_id": "X02",
+    "template_kind": "extended_response",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "transfers",
+    "subtopic": "Conservation transfers and transformations",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "spring-budget",
+    "context": "Complete an energy budget, explain conservation, then predict a change in useful output.",
+    "question_template": "Complete an energy budget, explain conservation, then predict a change in useful output.",
+    "variable_definitions": {
+      "input": {
+        "allowed_values": [
+          60,
+          80,
+          100
+        ],
+        "unit": "J",
+        "description": "Total input energy"
+      },
+      "percent": {
+        "allowed_values": [
+          60,
+          75,
+          90
+        ],
+        "unit": "%",
+        "description": "Useful-output or recovered-height percentage used to construct valid data"
+      }
+    },
+    "generation_constraints": [
+      "Use only allowed values.",
+      "Keep the release-from-rest/ideal-source/no-extra-input conditions in the prompt.",
+      "Update answers and rubric values together."
+    ],
+    "answer_generation_rules": {
+      "function_id": "extended_spring"
+    },
+    "explanation_generation_rules": {
+      "function_id": "extended_spring"
+    },
+    "marks": 6,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Law of conservation",
+      "E:Q21–30"
+    ],
+    "source_alignment_status": "added_practice",
+    "validation_requirements": [
+      "Enumerate all permitted combinations.",
+      "Check 3 parts × 2 marks.",
+      "Verify energy and current balances."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "spring-budget",
+      "variation_type": "numerical_within_fixed_reasoning_scenario",
+      "novel_scenario": false
+    }
+  },
+  {
+    "template_id": "X03",
+    "template_kind": "extended_response",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "parallel-switches",
+    "context": "Use branch voltage/current, predict switch effects, then evaluate control advantages.",
+    "question_template": "Use branch voltage/current, predict switch effects, then evaluate control advantages.",
+    "variable_definitions": {
+      "V": {
+        "allowed_values": [
+          3,
+          6,
+          9
+        ],
+        "unit": "V",
+        "description": "Voltage across the stated circuit/component"
+      },
+      "a": {
+        "allowed_values": [
+          0.1,
+          0.2
+        ],
+        "unit": "A",
+        "description": "Current in branch A"
+      },
+      "b": {
+        "allowed_values": [
+          0.15,
+          0.3
+        ],
+        "unit": "A",
+        "description": "Current in branch B"
+      }
+    },
+    "generation_constraints": [
+      "Use only allowed values.",
+      "Keep the release-from-rest/ideal-source/no-extra-input conditions in the prompt.",
+      "Update answers and rubric values together."
+    ],
+    "answer_generation_rules": {
+      "function_id": "extended_parallel"
+    },
+    "explanation_generation_rules": {
+      "function_id": "extended_parallel"
+    },
+    "marks": 6,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "added_practice",
+    "validation_requirements": [
+      "Enumerate all permitted combinations.",
+      "Check 3 parts × 2 marks.",
+      "Verify energy and current balances."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "parallel-switches",
+      "variation_type": "numerical_within_fixed_reasoning_scenario",
+      "novel_scenario": false
+    }
+  }
+]

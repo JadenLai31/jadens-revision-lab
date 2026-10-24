@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "template_id",
+    "template_kind",
+    "variable_definitions",
+    "generation_constraints",
+    "answer_generation_rules",
+    "explanation_generation_rules",
+    "validation_requirements",
+    "meaningful_variation_metadata",
+    "marks",
+    "source_reference"
+  ],
+  "properties": {
+    "template_id": {
+      "type": "string"
+    },
+    "template_kind": {
+      "enum": [
+        "numerical",
+        "conceptual",
+        "extended_response"
+      ]
+    },
+    "variable_definitions": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "allowed_values",
+          "unit",
+          "description"
+        ],
+        "properties": {
+          "allowed_values": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "answer_generation_rules": {
+      "type": "object",
+      "required": [
+        "function_id"
+      ]
+    },
+    "marks": {
+      "type": "integer",
+      "minimum": 1
+    }
+  }
+}

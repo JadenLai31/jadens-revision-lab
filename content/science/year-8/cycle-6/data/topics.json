@@ -1,0 +1,101 @@
+[
+  {
+    "id": "foundations",
+    "title": "Energy definitions and units",
+    "scope": "Energy definition; work; joules; kilojoules",
+    "source_summary": "S:Notes; E:Q6–9",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "forms",
+    "title": "Types of energy",
+    "scope": "Kinetic; gravitational; elastic; chemical; nuclear; thermal; electrical; light; sound",
+    "source_summary": "S:Types of energy; E:Q1–5",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "kinetic",
+    "title": "Kinetic energy",
+    "scope": "Mass and speed; comparisons; E_k = ½mv²",
+    "source_summary": "S:Formulas; E:Q10–14",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "potential",
+    "title": "Potential energy",
+    "scope": "Height and mass; elastic deformation; E_g = mgh",
+    "source_summary": "S:Formulas; E:Q15–20",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "transfers",
+    "title": "Conservation transfers and transformations",
+    "scope": "Object-to-object transfers; changes in form; energy chains",
+    "source_summary": "S:Law of conservation; E:Q21–30",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "efficiency",
+    "title": "Useful wasted and rebound energy",
+    "scope": "Energy balance; efficiency; rebound-height ratio",
+    "source_summary": "S:Energy Efficiency; S:REBOUND EXAMPLE elaboration",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "circuits",
+    "title": "Electricity and circuit essentials",
+    "scope": "Closed paths; sources; loads; conductors; symbols; short circuits",
+    "source_summary": "S:Electrical circuit; C:Q1–10,Q18",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "quantities",
+    "title": "Current voltage and resistance",
+    "scope": "Charge flow; potential difference; resistance; meters; electron direction",
+    "source_summary": "S:Electrons/Voltage/Current/Resistance; C:Q3–7,Q17",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "ohm",
+    "title": "Ohm’s law",
+    "scope": "Rearrangement; calculations; graph reading; fixed-variable relationships",
+    "source_summary": "S:Ohm’s law; C:Q11–16,Q19",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "networks",
+    "title": "AC DC series and parallel circuits",
+    "scope": "Frequency; branches; shared voltage; current; failures",
+    "source_summary": "S:Current/Types of circuits",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  },
+  {
+    "id": "investigations",
+    "title": "Investigations and engineering design",
+    "scope": "Variables; measurement; graphs; fair comparison; design iteration",
+    "source_summary": "E:Q14,Q28–31; S:rebound elaboration",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6"
+  }
+]

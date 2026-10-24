@@ -1,0 +1,800 @@
+[
+  {
+    "template_id": "N01",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "kinetic",
+    "subtopic": "Kinetic energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "moving-cart",
+    "question_template": "Calculate kinetic energy for a {m} kg cart moving at {v} m/s. Show working.",
+    "variable_definitions": {
+      "m": {
+        "allowed_values": [
+          0.2,
+          0.5,
+          2
+        ],
+        "description": "Mass of the moving or raised object",
+        "unit": "kg"
+      },
+      "v": {
+        "allowed_values": [
+          2,
+          4,
+          6
+        ],
+        "description": "Speed of the object",
+        "unit": "m/s"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "kinetic_energy",
+      "unit": "J",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "kinetic_energy",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Formulas"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "moving-cart",
+      "calculation_structure": "kinetic_energy",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N02",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "potential",
+    "subtopic": "Potential energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "raised-load",
+    "question_template": "Calculate GPE for a {m} kg load at {h} m above the zero level. Use g = 9.8 N/kg.",
+    "variable_definitions": {
+      "m": {
+        "allowed_values": [
+          0.5,
+          2,
+          5
+        ],
+        "description": "Mass of the moving or raised object",
+        "unit": "kg"
+      },
+      "h": {
+        "allowed_values": [
+          0.4,
+          1.5,
+          3
+        ],
+        "description": "Vertical height above the zero level",
+        "unit": "m"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "gpe",
+      "unit": "J",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "gpe",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Formulas"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "raised-load",
+      "calculation_structure": "gpe",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N03",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "ohm",
+    "subtopic": "Ohm’s law",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "current-calculation",
+    "question_template": "Calculate current through a {R} Ω resistor with {V} V across it.",
+    "variable_definitions": {
+      "V": {
+        "allowed_values": [
+          3,
+          6,
+          12
+        ],
+        "description": "Voltage across the stated circuit/component",
+        "unit": "V"
+      },
+      "R": {
+        "allowed_values": [
+          10,
+          20,
+          40
+        ],
+        "description": "Resistance of the stated circuit/component",
+        "unit": "Ω"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "ohm_current",
+      "unit": "A",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "ohm_current",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "C:Q13",
+      "S:Ohm’s law"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "current-calculation",
+      "calculation_structure": "ohm_current",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N04",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "ohm",
+    "subtopic": "Ohm’s law",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "voltage-calculation",
+    "question_template": "Calculate voltage across a {R} Ω resistor carrying {I} A.",
+    "variable_definitions": {
+      "I": {
+        "allowed_values": [
+          0.1,
+          0.2,
+          0.5
+        ],
+        "description": "Current through the component",
+        "unit": "A"
+      },
+      "R": {
+        "allowed_values": [
+          10,
+          30,
+          60
+        ],
+        "description": "Resistance of the stated circuit/component",
+        "unit": "Ω"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "ohm_voltage",
+      "unit": "V",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "ohm_voltage",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "C:Q14",
+      "S:Ohm’s law"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "voltage-calculation",
+      "calculation_structure": "ohm_voltage",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N05",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "ohm",
+    "subtopic": "Ohm’s law",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "resistance-calculation",
+    "question_template": "Calculate resistance when current is {I} A and voltage is {V} V.",
+    "variable_definitions": {
+      "V": {
+        "allowed_values": [
+          3,
+          6,
+          9
+        ],
+        "description": "Voltage across the stated circuit/component",
+        "unit": "V"
+      },
+      "I": {
+        "allowed_values": [
+          0.05,
+          0.1,
+          0.3
+        ],
+        "description": "Current through the component",
+        "unit": "A"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "ohm_resistance",
+      "unit": "Ω",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "ohm_resistance",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "C:Q15",
+      "S:Ohm’s law"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "resistance-calculation",
+      "calculation_structure": "ohm_resistance",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N06",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "useful-output",
+    "question_template": "Calculate efficiency when input is {input} J and useful output is {useful} J.",
+    "variable_definitions": {
+      "input": {
+        "allowed_values": [
+          100,
+          200,
+          500
+        ],
+        "description": "Total input energy",
+        "unit": "J"
+      },
+      "percent": {
+        "allowed_values": [
+          20,
+          40,
+          80
+        ],
+        "description": "Useful-output or recovered-height percentage used to construct valid data",
+        "unit": "%"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "efficiency",
+      "unit": "%",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "efficiency",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Energy Efficiency"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "useful-output",
+      "calculation_structure": "efficiency",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N07",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "rebound-percentage",
+    "question_template": "A passive ball is released from rest at {drop} cm and rebounds to {rebound} cm, using consistent reference heights. Calculate rebound percentage.",
+    "variable_definitions": {
+      "drop": {
+        "allowed_values": [
+          80,
+          120,
+          160
+        ],
+        "description": "Release height above the consistent contact reference",
+        "unit": "cm"
+      },
+      "percent": {
+        "allowed_values": [
+          50,
+          60,
+          75
+        ],
+        "description": "Useful-output or recovered-height percentage used to construct valid data",
+        "unit": "%"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "rebound",
+      "unit": "%",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "rebound",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "source_elaboration",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "rebound-percentage",
+      "calculation_structure": "rebound",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N08",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "waste-budget",
+    "question_template": "A device receives {input} J and produces {useful} J of useful output. Calculate the energy transferred to other forms, assuming no energy remains stored.",
+    "variable_definitions": {
+      "input": {
+        "allowed_values": [
+          100,
+          200,
+          400
+        ],
+        "description": "Total input energy",
+        "unit": "J"
+      },
+      "percent": {
+        "allowed_values": [
+          20,
+          50,
+          80
+        ],
+        "description": "Useful-output or recovered-height percentage used to construct valid data",
+        "unit": "%"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "waste",
+      "unit": "J",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "waste",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Energy Efficiency"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "waste-budget",
+      "calculation_structure": "waste",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N09",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "foundations",
+    "subtopic": "Energy definitions and units",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "energy-units",
+    "question_template": "Convert {kJ} kJ to joules.",
+    "variable_definitions": {
+      "kJ": {
+        "allowed_values": [
+          1.2,
+          2.5,
+          4.8
+        ],
+        "description": "Energy value expressed in kilojoules",
+        "unit": "kJ"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "kj_to_j",
+      "unit": "J",
+      "decimal_places": 0,
+      "absolute_tolerance": 0.5000000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "kj_to_j",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "E:Q8–9"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "energy-units",
+      "calculation_structure": "kj_to_j",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N10",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "series-drop",
+    "question_template": "Two components are in series across an ideal {V} V source. One voltage drop is {known} V. Calculate the other drop.",
+    "variable_definitions": {
+      "V": {
+        "allowed_values": [
+          6,
+          9,
+          12
+        ],
+        "description": "Voltage across the stated circuit/component",
+        "unit": "V"
+      },
+      "known": {
+        "allowed_values": [
+          1,
+          2,
+          3
+        ],
+        "description": "Known series voltage drop",
+        "unit": "V"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "series_drop",
+      "unit": "V",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "series_drop",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Series circuits"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "series-drop",
+      "calculation_structure": "series_drop",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N11",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "branch-sum",
+    "question_template": "Two branches carry {a} A and {b} A. Calculate the common supply current.",
+    "variable_definitions": {
+      "a": {
+        "allowed_values": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "description": "Current in branch A",
+        "unit": "A"
+      },
+      "b": {
+        "allowed_values": [
+          0.15,
+          0.3,
+          0.5
+        ],
+        "description": "Current in branch B",
+        "unit": "A"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "branch_sum",
+      "unit": "A",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "branch_sum",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Parallel circuits"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "branch-sum",
+      "calculation_structure": "branch_sum",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  },
+  {
+    "template_id": "N12",
+    "template_kind": "numerical",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "kinetic",
+    "subtopic": "Kinetic energy",
+    "difficulty": "Hard",
+    "cognitive_skill": "Reasoning",
+    "scenario_family": "ke-scaling",
+    "question_template": "An object’s mass is multiplied by {mf} and its speed by {vf}. Determine the factor multiplying its kinetic energy.",
+    "variable_definitions": {
+      "mf": {
+        "allowed_values": [
+          0.5,
+          2,
+          3
+        ],
+        "description": "Multiplier applied to mass",
+        "unit": "dimensionless"
+      },
+      "vf": {
+        "allowed_values": [
+          0.5,
+          2,
+          3
+        ],
+        "description": "Multiplier applied to speed",
+        "unit": "dimensionless"
+      }
+    },
+    "generation_constraints": [
+      "Only listed values; reject unknown/missing variables.",
+      "Every denominator is positive.",
+      "No extra energy input in rebound scenarios.",
+      "Useful output cannot exceed stated input."
+    ],
+    "answer_generation_rules": {
+      "function_id": "ke_factor",
+      "unit": "factor",
+      "decimal_places": 2,
+      "absolute_tolerance": 0.0050000001
+    },
+    "explanation_generation_rules": {
+      "function_id": "ke_factor",
+      "description": "The corresponding registry function supplies substituted working and final units."
+    },
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Formulas"
+    ],
+    "source_alignment_status": "source_supported",
+    "validation_requirements": [
+      "Enumerate all allowed Cartesian combinations.",
+      "Check finite answer, units, rubric total and substituted prompt.",
+      "Compare answer against independent Python oracle."
+    ],
+    "meaningful_variation_metadata": {
+      "family": "ke-scaling",
+      "calculation_structure": "ke_factor",
+      "variation_type": "numerical_only",
+      "novel_scenario": false,
+      "selection_note": "Do not count different numbers as a new scenario family."
+    }
+  }
+]

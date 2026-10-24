@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "N01:m=0.2,v=2",
+    "schema_version": "1.0.0",
+    "template_id": "N01",
+    "parameters": {
+      "m": 0.2,
+      "v": 2
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "kinetic",
+    "subtopic": "Kinetic energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "moving-cart",
+    "source_reference": [
+      "S:Formulas"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Calculate kinetic energy for a 0.2 kg cart moving at 2 m/s. Show working. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 0.4,
+      "rounded_value": 0.4,
+      "unit": "J",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "E_k = ½ × 0.2 × 2² = 0.4 J. Report 0.4 J."
+    },
+    "explanation": "E_k = ½ × 0.2 × 2² = 0.4 J. Report 0.4 J.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 0.4 J, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "kinetic_energy",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N02:m=0.5,h=0.4",
+    "schema_version": "1.0.0",
+    "template_id": "N02",
+    "parameters": {
+      "m": 0.5,
+      "h": 0.4
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "potential",
+    "subtopic": "Potential energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "raised-load",
+    "source_reference": [
+      "S:Formulas"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Calculate GPE for a 0.5 kg load at 0.4 m above the zero level. Use g = 9.8 N/kg. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 1.9600000000000002,
+      "rounded_value": 1.96,
+      "unit": "J",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "E_g = 0.5 × 9.8 × 0.4 = 1.96 J. Report 1.96 J after rounding."
+    },
+    "explanation": "E_g = 0.5 × 9.8 × 0.4 = 1.96 J. Report 1.96 J after rounding.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 1.96 J, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "gpe",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N03:V=3,R=10",
+    "schema_version": "1.0.0",
+    "template_id": "N03",
+    "parameters": {
+      "V": 3,
+      "R": 10
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "ohm",
+    "subtopic": "Ohm’s law",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "current-calculation",
+    "source_reference": [
+      "C:Q13",
+      "S:Ohm’s law"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Calculate current through a 10 Ω resistor with 3 V across it. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 0.3,
+      "rounded_value": 0.3,
+      "unit": "A",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "I = V/R = 3/10 = 0.3 A. Report 0.3 A."
+    },
+    "explanation": "I = V/R = 3/10 = 0.3 A. Report 0.3 A.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 0.3 A, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "ohm_current",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N04:I=0.1,R=10",
+    "schema_version": "1.0.0",
+    "template_id": "N04",
+    "parameters": {
+      "I": 0.1,
+      "R": 10
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "ohm",
+    "subtopic": "Ohm’s law",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "voltage-calculation",
+    "source_reference": [
+      "C:Q14",
+      "S:Ohm’s law"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Calculate voltage across a 10 Ω resistor carrying 0.1 A. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 1,
+      "rounded_value": 1,
+      "unit": "V",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "V = IR = 0.1 × 10 = 1 V. Report 1 V."
+    },
+    "explanation": "V = IR = 0.1 × 10 = 1 V. Report 1 V.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 1 V, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "ohm_voltage",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N05:V=3,I=0.05",
+    "schema_version": "1.0.0",
+    "template_id": "N05",
+    "parameters": {
+      "V": 3,
+      "I": 0.05
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "ohm",
+    "subtopic": "Ohm’s law",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "resistance-calculation",
+    "source_reference": [
+      "C:Q15",
+      "S:Ohm’s law"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Calculate resistance when current is 0.05 A and voltage is 3 V. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 60,
+      "rounded_value": 60,
+      "unit": "Ω",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "R = V/I = 3/0.05 = 60 Ω. Report 60 Ω."
+    },
+    "explanation": "R = V/I = 3/0.05 = 60 Ω. Report 60 Ω.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 60 Ω, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "ohm_resistance",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N06:input=100,percent=20",
+    "schema_version": "1.0.0",
+    "template_id": "N06",
+    "parameters": {
+      "input": 100,
+      "percent": 20
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "useful-output",
+    "source_reference": [
+      "S:Energy Efficiency"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Calculate efficiency when input is 100 J and useful output is 20 J. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 20,
+      "rounded_value": 20,
+      "unit": "%",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "Efficiency = 20/100 × 100 = 20 %. Report 20 %."
+    },
+    "explanation": "Efficiency = 20/100 × 100 = 20 %. Report 20 %.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 20 %, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "efficiency",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N07:drop=80,percent=50",
+    "schema_version": "1.0.0",
+    "template_id": "N07",
+    "parameters": {
+      "drop": 80,
+      "percent": 50
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "rebound-percentage",
+    "source_reference": [
+      "S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "source_elaboration",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "A passive ball is released from rest at 80 cm and rebounds to 40 cm, using consistent reference heights. Calculate rebound percentage. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 50,
+      "rounded_value": 50,
+      "unit": "%",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "Rebound percentage = 40/80 × 100 = 50 %. Report 50 %."
+    },
+    "explanation": "Rebound percentage = 40/80 × 100 = 50 %. Report 50 %.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 50 %, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "rebound",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N08:input=100,percent=20",
+    "schema_version": "1.0.0",
+    "template_id": "N08",
+    "parameters": {
+      "input": 100,
+      "percent": 20
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "waste-budget",
+    "source_reference": [
+      "S:Energy Efficiency"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "A device receives 100 J and produces 20 J of useful output. Calculate the energy transferred to other forms, assuming no energy remains stored. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 80,
+      "rounded_value": 80,
+      "unit": "J",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "Other energy = 100 − 20 = 80 J. Report 80 J."
+    },
+    "explanation": "Other energy = 100 − 20 = 80 J. Report 80 J.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 80 J, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "waste",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N09:kJ=1.2",
+    "schema_version": "1.0.0",
+    "template_id": "N09",
+    "parameters": {
+      "kJ": 1.2
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "foundations",
+    "subtopic": "Energy definitions and units",
+    "difficulty": "Easy",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "energy-units",
+    "source_reference": [
+      "E:Q8–9"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Convert 1.2 kJ to joules. Give your answer to 0 decimal places if necessary.",
+    "correct_answer": {
+      "value": 1200,
+      "rounded_value": 1200,
+      "unit": "J",
+      "absolute_tolerance": 0.5000000001,
+      "model_response": "1.2 × 1000 = 1200 J. Report 1200 J."
+    },
+    "explanation": "1.2 × 1000 = 1200 J. Report 1200 J.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 1200 J, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "kj_to_j",
+    "command_word": "Convert"
+  },
+  {
+    "id": "N10:V=6,known=1",
+    "schema_version": "1.0.0",
+    "template_id": "N10",
+    "parameters": {
+      "V": 6,
+      "known": 1
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "series-drop",
+    "source_reference": [
+      "S:Series circuits"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Two components are in series across an ideal 6 V source. One voltage drop is 1 V. Calculate the other drop. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 5,
+      "rounded_value": 5,
+      "unit": "V",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "Other voltage drop = 6 − 1 = 5 V. Report 5 V."
+    },
+    "explanation": "Other voltage drop = 6 − 1 = 5 V. Report 5 V.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 5 V, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "series_drop",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N11:a=0.1,b=0.15",
+    "schema_version": "1.0.0",
+    "template_id": "N11",
+    "parameters": {
+      "a": 0.1,
+      "b": 0.15
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Medium",
+    "cognitive_skill": "Calculation",
+    "scenario_family": "branch-sum",
+    "source_reference": [
+      "S:Parallel circuits"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Two branches carry 0.1 A and 0.15 A. Calculate the common supply current. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 0.25,
+      "rounded_value": 0.25,
+      "unit": "A",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "Supply current = 0.1 + 0.15 = 0.25 A. Report 0.25 A."
+    },
+    "explanation": "Supply current = 0.1 + 0.15 = 0.25 A. Report 0.25 A.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 0.25 A, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "branch_sum",
+    "command_word": "Calculate"
+  },
+  {
+    "id": "N12:mf=0.5,vf=0.5",
+    "schema_version": "1.0.0",
+    "template_id": "N12",
+    "parameters": {
+      "mf": 0.5,
+      "vf": 0.5
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "kinetic",
+    "subtopic": "Kinetic energy",
+    "difficulty": "Hard",
+    "cognitive_skill": "Reasoning",
+    "scenario_family": "ke-scaling",
+    "source_reference": [
+      "S:Formulas"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "An object’s mass is multiplied by 0.5 and its speed by 0.5. Determine the factor multiplying its kinetic energy. Give your answer to 2 decimal places if necessary.",
+    "correct_answer": {
+      "value": 0.125,
+      "rounded_value": 0.13,
+      "unit": "factor",
+      "absolute_tolerance": 0.0050000001,
+      "model_response": "Energy multiplier = 0.5 × 0.5² = 0.125 factor. Report 0.13 factor after rounding."
+    },
+    "explanation": "Energy multiplier = 0.5 × 0.5² = 0.125 factor. Report 0.13 factor after rounding.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Correct relationship and substitution or equivalent valid method."
+      },
+      {
+        "marks": 1,
+        "criterion": "Correct result 0.125 factor, allowing stated rounding."
+      }
+    ],
+    "calculation_structure": "ke_factor",
+    "command_word": "Determine"
+  },
+  {
+    "id": "C01:case_id=piano-transfer",
+    "schema_version": "1.0.0",
+    "template_id": "C01",
+    "parameters": {
+      "case_id": "piano-transfer"
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "transfers",
+    "subtopic": "Conservation transfers and transformations",
+    "difficulty": "Medium",
+    "cognitive_skill": "Explanation",
+    "scenario_family": "transfer-transform",
+    "source_reference": [
+      "E:Q21–27"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Describe an energy transfer when a finger presses a piano key, naming the starting and receiving objects.",
+    "correct_answer": {
+      "model_response": "Kinetic energy passes from the moving finger to the key, causing the key to move."
+    },
+    "explanation": "Kinetic energy passes from the moving finger to the key, causing the key to move.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Names kinetic energy"
+      },
+      {
+        "marks": 1,
+        "criterion": "Identifies finger as source and key as receiver"
+      }
+    ],
+    "calculation_structure": null,
+    "command_word": "Describe"
+  },
+  {
+    "id": "C02:case_id=series-break",
+    "schema_version": "1.0.0",
+    "template_id": "C02",
+    "parameters": {
+      "case_id": "series-break"
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Medium",
+    "cognitive_skill": "Prediction",
+    "scenario_family": "circuit-change",
+    "source_reference": [
+      "S:Types of circuits"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Predict the result of one broken filament in a two-lamp series circuit and explain.",
+    "correct_answer": {
+      "model_response": "Both lamps go out because the only path is broken."
+    },
+    "explanation": "Both lamps go out because the only path is broken.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Both off"
+      },
+      {
+        "marks": 1,
+        "criterion": "Only path interrupted"
+      }
+    ],
+    "calculation_structure": null,
+    "command_word": "Predict"
+  },
+  {
+    "id": "C03:case_id=surface-confound",
+    "schema_version": "1.0.0",
+    "template_id": "C03",
+    "parameters": {
+      "case_id": "surface-confound"
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "investigations",
+    "subtopic": "Investigations and engineering design",
+    "difficulty": "Medium",
+    "cognitive_skill": "Evaluation",
+    "scenario_family": "method-critique",
+    "source_reference": [
+      "E:Q14,Q31",
+      "S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Evaluate comparing two balls if one is dropped on carpet and the other on wood.",
+    "correct_answer": {
+      "model_response": "Ball type and surface both change, so rebound differences cannot be attributed to ball type alone. Use the same surface."
+    },
+    "explanation": "Ball type and surface both change, so rebound differences cannot be attributed to ball type alone. Use the same surface.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Identifies confound"
+      },
+      {
+        "marks": 1,
+        "criterion": "Explains same-surface correction"
+      }
+    ],
+    "calculation_structure": null,
+    "command_word": "Evaluate"
+  },
+  {
+    "id": "C04:case_id=current-used-up",
+    "schema_version": "1.0.0",
+    "template_id": "C04",
+    "parameters": {
+      "case_id": "current-used-up"
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "quantities",
+    "subtopic": "Current voltage and resistance",
+    "difficulty": "Medium",
+    "cognitive_skill": "Evaluation",
+    "scenario_family": "electrical-misconceptions",
+    "source_reference": [
+      "C:Q17,Q19",
+      "S:Voltage/Current"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [],
+    "important_terminology": [],
+    "common_mistakes": [],
+    "marks": 2,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "short_answer",
+    "question_text": "Evaluate: “The second lamp gets less current because the first lamp uses it up.” Assume a steady series circuit.",
+    "correct_answer": {
+      "model_response": "Current is the same throughout the loop. The lamps transfer electrical energy; they do not consume charge."
+    },
+    "explanation": "Current is the same throughout the loop. The lamps transfer electrical energy; they do not consume charge.",
+    "marking_rubric": [
+      {
+        "marks": 1,
+        "criterion": "Same current"
+      },
+      {
+        "marks": 1,
+        "criterion": "Energy versus charge distinction"
+      }
+    ],
+    "calculation_structure": null,
+    "command_word": "Evaluate"
+  },
+  {
+    "id": "X01:drop=80,percent=50",
+    "schema_version": "1.0.0",
+    "template_id": "X01",
+    "parameters": {
+      "drop": 80,
+      "percent": 50
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "rebound-budget",
+    "source_reference": [
+      "S:Energy Efficiency",
+      "S:REBOUND EXAMPLE elaboration"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [
+      "Equivalent scientifically valid wording meeting the stated criteria."
+    ],
+    "important_terminology": [
+      "GPE",
+      "elastic",
+      "rebound percentage"
+    ],
+    "common_mistakes": [
+      "Reversing ratio",
+      "Treating a thrown ball as a release from rest"
+    ],
+    "marks": 6,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "extended_response",
+    "calculation_structure": "extended_rebound",
+    "question_text": "A passive ball is released from rest at 80 cm and first rebounds to 40 cm. Both centre-of-mass heights use the same contact reference. No energy is added during the bounce.",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Calculate rebound percentage, showing working.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Explain the energy changes and why the rebound is lower.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Evaluate repeating this trial by throwing the ball down instead; propose a fair release method.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) 40/80 × 100 = 50%.\nb) GPE becomes kinetic, then temporarily elastic during compression, then kinetic and GPE again. Some energy spreads as thermal energy and sound, leaving less recovered GPE.\nc) Throwing adds initial kinetic energy. Use a repeatable release from rest without a push, keeping ball, surface and height consistent."
+    },
+    "explanation": "a) 40/80 × 100 = 50%.\nb) GPE becomes kinetic, then temporarily elastic during compression, then kinetic and GPE again. Some energy spreads as thermal energy and sound, leaving less recovered GPE.\nc) Throwing adds initial kinetic energy. Use a repeatable release from rest without a push, keeping ball, surface and height consistent.",
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Correct rebound/drop ratio"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "50%"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Accurate compression and rebound energy sequence"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Explains energy to surroundings without destruction"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Identifies extra input from throwing"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Proposes release from rest with consistent controls"
+      }
+    ],
+    "command_word": "Calculate"
+  },
+  {
+    "id": "X02:input=60,percent=60",
+    "schema_version": "1.0.0",
+    "template_id": "X02",
+    "parameters": {
+      "input": 60,
+      "percent": 60
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "transfers",
+    "subtopic": "Conservation transfers and transformations",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "spring-budget",
+    "source_reference": [
+      "S:Law of conservation",
+      "E:Q21–30"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [
+      "Equivalent scientifically valid wording meeting the stated criteria."
+    ],
+    "important_terminology": [
+      "system",
+      "conservation",
+      "efficiency"
+    ],
+    "common_mistakes": [
+      "Omitting thermal energy from the total"
+    ],
+    "marks": 6,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "extended_response",
+    "calculation_structure": "extended_spring",
+    "question_text": "A spring stores 60 J before launch. After launch it is relaxed and the car has 36 J of kinetic energy. The remaining energy is thermal within the system. No energy crosses the boundary.",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Calculate the thermal energy increase and useful-output efficiency.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Describe final energy bars and explain conservation.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Predict what happens to useful output if friction is reduced with the same initial energy, and justify.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) Thermal increase = 60 − 36 = 24 J. Efficiency = 36/60 × 100 = 60%.\nb) Elastic 0 J; kinetic 36 J; thermal increase 24 J. Total 60 J equals the initial total.\nc) Less energy is transferred into thermal energy by friction, so more can remain as useful kinetic energy, assuming other changes are negligible. Total energy still cannot exceed the input."
+    },
+    "explanation": "a) Thermal increase = 60 − 36 = 24 J. Efficiency = 36/60 × 100 = 60%.\nb) Elastic 0 J; kinetic 36 J; thermal increase 24 J. Total 60 J equals the initial total.\nc) Less energy is transferred into thermal energy by friction, so more can remain as useful kinetic energy, assuming other changes are negligible. Total energy still cannot exceed the input.",
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "24 J thermal increase"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "60% efficiency"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Correct final bar values"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Conserved total 60 J"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Predicts greater useful kinetic energy"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Explains reduced thermal transfer under stated conditions"
+      }
+    ],
+    "command_word": "Calculate"
+  },
+  {
+    "id": "X03:V=3,a=0.1,b=0.15",
+    "schema_version": "1.0.0",
+    "template_id": "X03",
+    "parameters": {
+      "V": 3,
+      "a": 0.1,
+      "b": 0.15
+    },
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "parallel-switches",
+    "source_reference": [
+      "S:Current/Types of circuits"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original generated practice",
+    "rubric_status": "proposed_practice",
+    "supporting_data": null,
+    "options": null,
+    "acceptable_alternative_answers": [
+      "Equivalent scientifically valid wording meeting the stated criteria."
+    ],
+    "important_terminology": [
+      "branch",
+      "current",
+      "voltage"
+    ],
+    "common_mistakes": [
+      "Sharing voltage between parallel branches"
+    ],
+    "marks": 6,
+    "strong_answer_features": "Show the relationship, use the stated conditions and include units where relevant.",
+    "format": "extended_response",
+    "calculation_structure": "extended_parallel",
+    "question_text": "Two independently switched parallel lamp branches connect across an ideal 3 V source. Branch A carries 0.1 A and B carries 0.15 A when both switches are closed.",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Determine branch voltages and total current when both switches are closed.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Predict the state of A and total current when only B is switched off.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Give one explained advantage and one trade-off of parallel wiring for independent lighting.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) Each branch has 3 V. Total current = 0.1 + 0.15 = 0.25 A.\nb) A still has 3 V and 0.1 A; B has zero current. Total current is 0.1 A.\nc) A branch can operate independently because it has its own complete path. Extra branches require more wiring and can increase total supply current."
+    },
+    "explanation": "a) Each branch has 3 V. Total current = 0.1 + 0.15 = 0.25 A.\nb) A still has 3 V and 0.1 A; B has zero current. Total current is 0.1 A.\nc) A branch can operate independently because it has its own complete path. Extra branches require more wiring and can increase total supply current.",
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "3 V each"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "0.25 A total"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "A remains operating under the ideal-source assumption"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "0.1 A total after B opens"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Explained independent-operation advantage"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Relevant wiring/current trade-off"
+      }
+    ],
+    "command_word": "Determine"
+  }
+]

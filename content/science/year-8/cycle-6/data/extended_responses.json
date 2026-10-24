@@ -1,0 +1,910 @@
+[
+  {
+    "id": "ER01",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "efficiency",
+    "subtopic": "Useful wasted and rebound energy",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "ball-comparison",
+    "command_word": "Calculate",
+    "question_text": "Two ball types are released from rest at the same centre-of-mass height of 100 cm above their contact reference levels onto the same hard surface. First-rebound heights are below.",
+    "supporting_data": {
+      "type": "table",
+      "columns": [
+        "Ball type",
+        "Trial 1 (cm)",
+        "Trial 2 (cm)",
+        "Trial 3 (cm)"
+      ],
+      "rows": [
+        [
+          "A",
+          72,
+          74,
+          73
+        ],
+        [
+          "B",
+          58,
+          62,
+          60
+        ]
+      ]
+    },
+    "options": null,
+    "source_reference": [
+      "S:REBOUND EXAMPLE elaboration",
+      "E:Q28–31"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "A guided release or a perpendicular camera to reduce parallax, with explanation."
+    ],
+    "important_terminology": [
+      "GPE",
+      "kinetic",
+      "elastic",
+      "mean",
+      "rebound percentage"
+    ],
+    "common_mistakes": [
+      "Using drop/rebound",
+      "Claiming type A stores more total energy solely from its percentage",
+      "Changing surface between types"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Calculate the mean rebound height and rebound percentage for each type.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Explain the energy changes during one bounce and why rebound percentage is below 100%.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Propose two improvements that would strengthen this comparison, explaining each.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) A: (72 + 74 + 73)/3 = 73 cm, so 73%. B: (58 + 62 + 60)/3 = 60 cm, so 60%.\nb) GPE becomes kinetic during falling, then some is temporarily elastic during deformation; some returns to kinetic and GPE. Energy also spreads as thermal energy and sound, so less GPE is recovered.\nc) Use video with a fixed scale to identify peak height more accurately. Test multiple balls of each type under the same method to avoid treating one unusual specimen as representative."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "A mean and percentage: 73 cm and 73%"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "B mean and percentage: 60 cm and 60%"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Accurate falling/compression/rebound sequence"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Explains transfer to other forms without destruction"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "One improvement with a relevant reason"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Second distinct improvement with a relevant reason"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER02",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "transfers",
+    "subtopic": "Conservation transfers and transformations",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "spring-energy-budget",
+    "command_word": "Describe",
+    "question_text": "A spring initially stores 100 J. It launches a toy car. At a later instant the spring is relaxed, the car has 70 J of kinetic energy and the system has gained 30 J of thermal energy. No energy crosses the system boundary.",
+    "supporting_data": null,
+    "options": null,
+    "source_reference": [
+      "E:Q28–30",
+      "S:Energy Efficiency"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "Describe thermal energy in the spring, wheels or car; accept an equivalent consistent energy-bar representation."
+    ],
+    "important_terminology": [
+      "conservation",
+      "system",
+      "thermal",
+      "efficiency"
+    ],
+    "common_mistakes": [
+      "Forgetting thermal energy",
+      "Calling a 15-percentage-point change a 15% relative increase"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Describe a labelled energy-bar chart before and after release.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Explain whether the final measurements agree with conservation of energy.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "A second design gives the same car 85 J of kinetic energy from 100 J input. Compare useful-output efficiencies and explain a possible improvement.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) Before: elastic 100 J, kinetic 0 J and thermal increase 0 J. After: elastic 0 J, kinetic 70 J and thermal increase 30 J.\nb) The final total is 70 + 30 = 100 J, equal to the initial 100 J. Mechanical energy decreases but total energy is conserved.\nc) Efficiencies are 70% and 85%, an improvement of 15 percentage points. Reduced friction could leave more energy as useful car motion; this is a possible mechanism, not proven by efficiency alone."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Correct initial bars with labels"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Correct final bars with labels"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Adds final energies to 100 J"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Distinguishes mechanical-energy loss from total conservation"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Correct 70% and 85% comparison"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Plausible mechanism with an energy explanation"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER03",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "transfers",
+    "subtopic": "Conservation transfers and transformations",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "solar-storage-system",
+    "command_word": "Describe",
+    "question_text": "A solar-and-battery system powers a small reading lamp after sunset. A simplified charging event receives 800 J of sunlight and stores 200 J as chemical energy. During discharge, 50 J of that stored energy becomes useful lamp light; assume all other energy is transferred to the surroundings.",
+    "supporting_data": null,
+    "options": null,
+    "source_reference": [
+      "E:Q26–27",
+      "S:Energy Efficiency"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "Light travels from the lamp to the room; thermal energy passes from a component to its surroundings."
+    ],
+    "important_terminology": [
+      "transfer",
+      "transformation",
+      "chemical potential",
+      "overall efficiency"
+    ],
+    "common_mistakes": [
+      "Using 200 J as input for the overall efficiency",
+      "Giving transformations when asked for transfers"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Describe the main energy-form chain from sunlight to lamp light.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Calculate the sunlight-to-storage efficiency and the overall sunlight-to-useful-light efficiency.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Describe two energy transfers between objects or places in this system, identifying the start and destination.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) Light → electrical → chemical potential in the battery → electrical → light from the lamp.\nb) Storage efficiency = 200/800 × 100 = 25%. Overall = 50/800 × 100 = 6.25%.\nc) Light travels from the Sun to the panel. Electrical energy is transferred from the battery through the circuit to the lamp."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Light to electrical to chemical storage"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Chemical to electrical to lamp light"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "25% storage efficiency"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "6.25% overall efficiency"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "First valid transfer with origin and destination"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Second distinct transfer with origin and destination"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER04",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "potential",
+    "subtopic": "Potential energy",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "ramp-cart",
+    "command_word": "Calculate",
+    "question_text": "A 2 kg cart starts from rest 1.5 m above the bottom of a ramp. Take g = 9.8 N/kg. At the bottom, its kinetic energy is 20 J. No person pushes it.",
+    "supporting_data": null,
+    "options": null,
+    "source_reference": [
+      "S:Formulas/Conservation/Efficiency"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "A numerical counterexample demonstrating that doubled height does not double ideal speed."
+    ],
+    "important_terminology": [
+      "GPE",
+      "kinetic",
+      "friction",
+      "speed squared"
+    ],
+    "common_mistakes": [
+      "Equating height multiplier to speed multiplier",
+      "Ignoring energy in surroundings"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Calculate the initial GPE and energy transferred to other forms by the bottom.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Explain the cart’s energy changes and calculate the percentage of initial GPE appearing as kinetic energy at the bottom. Round to one decimal place.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Evaluate the claim that doubling the starting height must double the bottom speed, even on an ideal frictionless ramp.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) Initial GPE = 2 × 9.8 × 1.5 = 29.4 J. Other forms receive 29.4 − 20 = 9.4 J.\nb) GPE decreases as kinetic energy increases, while friction and vibrations transfer energy to thermal energy and sound. Useful percentage = 20/29.4 × 100 ≈ 68.0%.\nc) The claim is false. On an ideal ramp, doubling height doubles available GPE and final kinetic energy, but speed increases by √2 because kinetic energy depends on speed squared."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "29.4 J with valid substitution"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "9.4 J to other forms"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Accurate transformation and loss explanation"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "68.0%"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Rejects doubling-speed claim with doubled energy"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Uses v² relationship to justify √2 or less-than-double speed"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER05",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "investigations",
+    "subtopic": "Investigations and engineering design",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "energy-graph-reading",
+    "command_word": "Convert",
+    "question_text": "Graph D shows an animal model’s daily energy requirement at four ages. The figures are invented practice data, not biological predictions.",
+    "supporting_data": {
+      "type": "graph",
+      "asset": "assets/graph-d.svg",
+      "alt": "Line graph of daily energy requirement in kJ against age in months; points (0,800), (4,1800), (8,3200), (12,4500).",
+      "columns": [
+        "Age (months)",
+        "Daily energy (kJ)"
+      ],
+      "rows": [
+        [
+          0,
+          800
+        ],
+        [
+          4,
+          1800
+        ],
+        [
+          8,
+          3200
+        ],
+        [
+          12,
+          4500
+        ]
+      ]
+    },
+    "options": null,
+    "source_reference": [
+      "E:Q8–9"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "State that additional evidence may change the trend; propose measurements at and around 18 months rather than extrapolating an exact value."
+    ],
+    "important_terminology": [
+      "axis",
+      "kilojoule",
+      "joule",
+      "extrapolation"
+    ],
+    "common_mistakes": [
+      "Reading a nearby age instead of the requested one",
+      "Confusing kJ and J"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Read the value at 8 months and convert it to joules per day.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Calculate the difference between 12 months and birth in joules per day.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Evaluate whether the graph justifies an exact prediction for 18 months, and explain how to improve the evidence.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) At 8 months: 3200 kJ/day = 3,200,000 J/day.\nb) At 12 months: 4500 kJ/day; at birth: 800 kJ/day. Difference = 3700 kJ/day = 3,700,000 J/day.\nc) No exact 18-month value is established because this is beyond the measured range; the trend may change. Collect data at later ages with repeated observations from an appropriate sample."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Reads 3200 kJ/day"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Converts to 3,200,000 J/day"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Subtracts 4500 − 800 = 3700 kJ/day"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Converts to 3,700,000 J/day"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Explains extrapolation limitation"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Proposes relevant later-age evidence"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER06",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "ohm",
+    "subtopic": "Ohm’s law",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "resistor-investigation",
+    "command_word": "Calculate",
+    "question_text": "A student measures an unknown resistor at several voltages while keeping its temperature approximately constant. Use the table.",
+    "supporting_data": {
+      "type": "table",
+      "columns": [
+        "Voltage (V)",
+        "Current (A)"
+      ],
+      "rows": [
+        [
+          2,
+          0.1
+        ],
+        [
+          4,
+          0.2
+        ],
+        [
+          6,
+          0.3
+        ],
+        [
+          8,
+          0.4
+        ]
+      ]
+    },
+    "options": null,
+    "source_reference": [
+      "C:Q16,Q19",
+      "S:meters/Ohm’s law"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "Use any two non-zero rows to obtain 20 Ω; a correctly labelled V-versus-I slope method is also acceptable."
+    ],
+    "important_terminology": [
+      "Ohm’s law",
+      "constant temperature",
+      "series",
+      "parallel"
+    ],
+    "common_mistakes": [
+      "Taking I/V as resistance",
+      "Connecting an ammeter directly across the supply"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Calculate resistance using two different rows.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Predict current at 10 V if the model remains valid, and justify the prediction.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Describe correct meter placement and one reason the resistance might not remain constant in a different experiment.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) At 2 V: R = 2/0.1 = 20 Ω. At 8 V: R = 8/0.4 = 20 Ω. Any two rows give 20 Ω.\nb) I = 10/20 = 0.5 A, using the constant V/I relationship. This prediction assumes the resistor remains at comparable temperature.\nc) Use an ammeter in series and voltmeter across the resistor. Significant heating can change resistance, so a single constant-R model might fail."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Correct resistance from one row"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Correct resistance from a second row"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "0.5 A prediction"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Justifies constant resistance condition"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Correct placement of both meters"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Valid explanation of a condition change"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER07",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "parallel-lighting",
+    "command_word": "Determine",
+    "question_text": "Two lamps are connected in separate parallel branches across an ideal 6 V source. Initially branch A carries 0.2 A and branch B carries 0.3 A. Each branch has its own switch.",
+    "supporting_data": null,
+    "options": null,
+    "source_reference": [
+      "S:Types of circuits"
+    ],
+    "source_alignment_status": "source_supported",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "A correctly explained wiring-complexity or total-current trade-off; equivalent wording about separate complete paths."
+    ],
+    "important_terminology": [
+      "branch",
+      "supply voltage",
+      "current",
+      "parallel"
+    ],
+    "common_mistakes": [
+      "Dividing voltage between parallel branches",
+      "Assuming all batteries are ideal in every real circuit"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Determine each lamp’s voltage and the total supply current when both switches are closed.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Predict what happens to branch A and the total current when branch B is switched off.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Compare this arrangement with a single series loop for independently controlled lights, giving one advantage and one trade-off.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) Each lamp has 6 V. Supply current = 0.2 + 0.3 = 0.5 A.\nb) A still has 6 V and, under the stated ideal conditions, 0.2 A. B has zero current, so total current becomes 0.2 A.\nc) Parallel wiring permits independent control or continued operation after one branch opens. It requires more wiring and can draw a greater total current with more operating branches."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "6 V across each lamp"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "0.5 A total"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "A remains operating at stated voltage/current"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Total falls to 0.2 A"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Explained independent-operation advantage"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Relevant trade-off"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER08",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "investigations",
+    "subtopic": "Investigations and engineering design",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "prototype-comparison",
+    "command_word": "Evaluate",
+    "question_text": "Two spring-powered vehicle prototypes must travel at least 1.2 m while staying in a 20 cm-wide lane. Prototype A travels 1.4, 1.3 and 1.5 m, but leaves the lane twice. B travels 1.2, 1.25 and 1.3 m and stays in the lane each time.",
+    "supporting_data": null,
+    "options": null,
+    "source_reference": [
+      "E:Q14"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "Modify the axle alignment or weight distribution, with a justified stability mechanism and retest."
+    ],
+    "important_terminology": [
+      "criteria",
+      "prototype",
+      "control",
+      "evaluate",
+      "retest"
+    ],
+    "common_mistakes": [
+      "Choosing the longest distance alone",
+      "Changing many features without tracking their effects"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Evaluate which prototype better meets both criteria, using evidence.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Propose a fair comparison method that controls two relevant conditions.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Suggest one targeted improvement for A and describe how to check whether it works.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) B meets both criteria in all three trials. A travels far enough but fails the lane requirement in two trials, so distance alone does not establish success.\nb) Use the same test surface and the same starting line/release procedure; define a consistent loading protocol and repeat trials.\nc) Improve wheel alignment or steering stability, then repeat tests for both distance and lane position under the same conditions. Check that the change improves straight travel without causing distance to fall below 1.2 m."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Selects B using distance evidence"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Uses lane evidence to reject distance-only judgement"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "One appropriate controlled condition"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Second appropriate controlled condition"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Targeted improvement linked to failure"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Retest against both criteria"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  },
+  {
+    "id": "ER09",
+    "schema_version": "1.0.0",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "investigations",
+    "subtopic": "Investigations and engineering design",
+    "difficulty": "Hard",
+    "cognitive_skill": "Analysis",
+    "scenario_family": "bounce-method-review",
+    "command_word": "Identify",
+    "question_text": "A student tests release height using one ball. At 50 cm they drop it onto carpet; at 100 cm they drop it onto wood; at 150 cm they throw it down onto wood. They do one trial at each height and conclude that height alone determines rebound.",
+    "supporting_data": null,
+    "options": null,
+    "source_reference": [
+      "S:rebound elaboration",
+      "E:Q28–31"
+    ],
+    "source_alignment_status": "added_practice",
+    "authorship": "Original practice question",
+    "rubric_status": "proposed_practice",
+    "acceptable_alternative_answers": [
+      "Use a mechanical release without a push; repeated video measurements with a consistent height reference."
+    ],
+    "important_terminology": [
+      "validity",
+      "repeatability",
+      "initial kinetic energy",
+      "system"
+    ],
+    "common_mistakes": [
+      "Assuming any height ratio over 100% violates conservation",
+      "Calling one trial reliable"
+    ],
+    "calculation_structure": null,
+    "format": "extended_response",
+    "parts": [
+      {
+        "id": "a",
+        "text": "Identify two changes besides height that weaken the conclusion. Explain each.",
+        "marks": 2
+      },
+      {
+        "id": "b",
+        "text": "Design a better comparison, including repeated measurements and a consistent measurement reference.",
+        "marks": 2
+      },
+      {
+        "id": "c",
+        "text": "Explain why a rebound above release height in the thrown trial would not disprove conservation of energy.",
+        "marks": 2
+      }
+    ],
+    "correct_answer": {
+      "model_response": "a) The surface changes, affecting deformation and energy transferred. Throwing adds initial kinetic energy, unlike a release from rest.\nb) Use the same surface and release from rest for every height. Measure centre-of-mass heights from a consistent reference, record several trials per height and compare means and spread.\nc) The hand adds energy before release. Initial energy includes GPE plus the supplied kinetic energy, so rebound can exceed release height without creating energy."
+    },
+    "explanation": "Use the data and stated assumptions to connect the stages of the argument.",
+    "marks": 6,
+    "marking_rubric": [
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Surface change and relevant consequence"
+      },
+      {
+        "part": "a",
+        "marks": 1,
+        "criterion": "Throwing change and added energy"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Controls method and uses consistent reference"
+      },
+      {
+        "part": "b",
+        "marks": 1,
+        "criterion": "Repeats and appropriate summary of variation"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Identifies extra energy input"
+      },
+      {
+        "part": "c",
+        "marks": 1,
+        "criterion": "Explains a correct wider energy balance"
+      }
+    ],
+    "strong_answer_features": "A strong response answers every subpart, uses the numerical or diagram evidence, states relevant conditions and justifies its conclusion."
+  }
+]

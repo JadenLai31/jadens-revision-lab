@@ -1,0 +1,16 @@
+{
+  "name": "jadens-revision-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs",
+    "test:browser": "node tests/browser.cjs",
+    "validate:pack": "node content/science/year-8/cycle-6/runtime/validate.mjs && python3 content/science/year-8/cycle-6/runtime/independent_check.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

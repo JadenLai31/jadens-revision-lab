@@ -1,0 +1,193 @@
+.pack {
+  min-width: 0;
+}
+.pack h2:focus {
+  outline: none;
+}
+.pack fieldset {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.pack legend {
+  font-weight: 700;
+  padding: 0 8px;
+}
+.pack-choice {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 7px 0;
+}
+.pack input[type="checkbox"],
+.pack input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  accent-color: var(--blue);
+}
+.pack label:has(select),
+.pack label:has(input[type="text"]),
+.pack label:has(textarea) {
+  display: block;
+  margin: 12px 0;
+}
+.pack select,
+.pack input[type="text"] {
+  max-width: 100%;
+  background: #17283d;
+  color: var(--ink);
+  border: 1px solid #526782;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 4px;
+}
+.pack .btn {
+  margin: 5px 5px 5px 0;
+  min-height: 44px;
+}
+.pack details {
+  margin: 18px 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.pack summary {
+  cursor: pointer;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.pack-navigator {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 16px 0;
+}
+.pack-navigator .btn {
+  min-width: 44px;
+  padding: 8px;
+  margin: 0;
+}
+.pack-navigator [aria-current="step"] {
+  outline: 3px solid var(--blue);
+  outline-offset: 1px;
+}
+.pack .pack-diagram {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 8px;
+}
+.pack table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 18px 0;
+}
+.pack caption {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.pack th,
+.pack td {
+  border: 1px solid var(--line);
+  padding: 10px;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.pack-table-wrap {
+  overflow: auto;
+  max-width: 100%;
+}
+.pack-pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.pack h3 {
+  margin-top: 24px;
+}
+.pack .buttons {
+  margin: 18px 0;
+}
+.legacy-links {
+  margin: 20px 0;
+}
+.legacy-links button {
+  background: none;
+  color: var(--blue);
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.pack-review p {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 550px) {
+  .pack .metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pack th,
+  .pack td {
+    padding: 6px;
+    font-size: 13px;
+  }
+  .pack .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .pack .buttons .btn {
+    width: 100%;
+  }
+  .pack select {
+    width: 100%;
+    margin-left: 0;
+  }
+  .pack details {
+    padding: 12px;
+  }
+  .pack .metric {
+    padding: 12px;
+  }
+  .pack .metric strong {
+    font-size: 23px;
+  }
+}
+@media print {
+  .top,
+  .subnav,
+  .legacy-links,
+  .pack .buttons,
+  .pack button,
+  .pack-navigator {
+    display: none !important;
+  }
+  .pack details {
+    break-inside: auto;
+  }
+  .pack {
+    color: #000;
+    background: #fff;
+  }
+  .pack th,
+  .pack td {
+    border-color: #777;
+  }
+  .pack details:not([open]) {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .subnav {
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+  .subnav button {
+    white-space: normal;
+    min-height: 44px;
+  }
+}

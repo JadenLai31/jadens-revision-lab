@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "fixed_question_contracts": 83,
+  "generated_question_contracts": 156,
+  "template_contracts": 19,
+  "numerical_instances_independently_checked": 102,
+  "extended_instances_energy_current_checks": 30,
+  "fixed_numerical_responses_checked": 16,
+  "mc_keys_reviewed": 32,
+  "near_duplicate_review_candidates": [
+    {
+      "a": "SA04",
+      "b": "SA05",
+      "similarity": 0.821
+    }
+  ],
+  "contract_note": "Checks the keywords used in the bundled schemas; not a general-purpose JSON Schema implementation."
+}

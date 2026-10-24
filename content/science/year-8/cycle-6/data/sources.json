@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_date": "2026-10-24",
+  "sources": [
+    {
+      "id": "S",
+      "title": "Energy Revision Sheet — Original Notes, Diagrams & Elaborations",
+      "kind": "user_uploaded_revision_document",
+      "locator": "Headings and labelled elaborations",
+      "provenance_note": "Contains notes plus added elaborations; school authorship of every statement is not independently established."
+    },
+    {
+      "id": "E",
+      "title": "Test: Energy",
+      "kind": "school_assessment_example",
+      "url": "https://stileapp.com/institution-7700/subject-734709/lesson-5956861/worksheet-51810817",
+      "questions": 31,
+      "marks": 64
+    },
+    {
+      "id": "C",
+      "title": "Test: Electrical circuits",
+      "kind": "school_assessment_example",
+      "url": "https://stileapp.com/institution-7700/subject-734709/lesson-8906519/worksheet-55569820",
+      "questions": 19,
+      "marks": 26
+    }
+  ],
+  "alignment_values": {
+    "source_supported": "Concept or skill explicitly present; prompt and data are original.",
+    "source_elaboration": "Relies on an addition labelled ELABORATION in S.",
+    "added_practice": "Added application or experimental detail; not asserted as a school requirement."
+  },
+  "rubric_policy": "All new marking schemes are proposed practice rubrics, informed by source conventions, not school-approved rubrics."
+}

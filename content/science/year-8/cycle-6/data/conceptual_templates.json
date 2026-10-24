@@ -1,0 +1,520 @@
+[
+  {
+    "template_id": "C01",
+    "template_kind": "conceptual",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "transfers",
+    "subtopic": "Conservation transfers and transformations",
+    "difficulty": "Medium",
+    "cognitive_skill": "Explanation",
+    "scenario_family": "transfer-transform",
+    "question_template": "Select one complete verified case; use its prompt unchanged.",
+    "variable_definitions": {
+      "case_id": {
+        "allowed_values": [
+          "piano-transfer",
+          "piano-transform",
+          "turbine-transfer",
+          "turbine-transform",
+          "battery-transform",
+          "lamp-transfer"
+        ],
+        "unit": "category",
+        "description": "Complete scenario and reasoning-task bundle"
+      }
+    },
+    "generation_constraints": [
+      "Never mix prompt, model answer or rubric across cases."
+    ],
+    "answer_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Copy the selected case model response."
+    },
+    "explanation_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Use selected case explanation and mark criteria."
+    },
+    "validation_requirements": [
+      "All cases have 2 rubric points.",
+      "All prompts differ.",
+      "No unrestricted substitutions."
+    ],
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "E:Q21–27"
+    ],
+    "source_alignment_status": "source_supported",
+    "meaningful_variation_metadata": {
+      "family": "transfer-transform",
+      "variation_type": "verified_scenario_and_task",
+      "case_ids": [
+        "piano-transfer",
+        "piano-transform",
+        "turbine-transfer",
+        "turbine-transform",
+        "battery-transform",
+        "lamp-transfer"
+      ]
+    },
+    "cases": [
+      {
+        "id": "piano-transfer",
+        "question_text": "Describe an energy transfer when a finger presses a piano key, naming the starting and receiving objects.",
+        "model_response": "Kinetic energy passes from the moving finger to the key, causing the key to move.",
+        "criteria": [
+          "Names kinetic energy",
+          "Identifies finger as source and key as receiver"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "piano-transform",
+        "question_text": "Explain a transformation when a piano’s vibrating mechanism produces sound.",
+        "model_response": "Mechanical kinetic energy associated with vibration is transformed into sound energy that travels through the air.",
+        "criteria": [
+          "Identifies initial motion/vibration energy",
+          "Identifies sound energy output"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "turbine-transfer",
+        "question_text": "Describe the transfer when moving air turns a wind turbine’s blades.",
+        "model_response": "Energy is transferred from the moving air to the blades, which gain kinetic energy.",
+        "criteria": [
+          "Air-to-blade direction",
+          "Links to motion/kinetic energy"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "turbine-transform",
+        "question_text": "Explain the useful transformation when a rotating turbine drives a generator.",
+        "model_response": "Kinetic energy of the rotating mechanism is transformed into electrical energy by the generator.",
+        "criteria": [
+          "Initial kinetic energy",
+          "Final electrical energy"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "battery-transform",
+        "question_text": "Explain the useful energy transformation while a rechargeable battery is charging.",
+        "model_response": "Electrical energy supplied to the battery increases its stored chemical potential energy.",
+        "criteria": [
+          "Electrical energy input",
+          "Chemical storage increase"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "lamp-transfer",
+        "question_text": "Describe one transfer after a lamp emits light into a room.",
+        "model_response": "Light energy travels from the lamp to objects in the room.",
+        "criteria": [
+          "Light energy",
+          "Lamp-to-room-object direction"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      }
+    ]
+  },
+  {
+    "template_id": "C02",
+    "template_kind": "conceptual",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "networks",
+    "subtopic": "AC DC series and parallel circuits",
+    "difficulty": "Medium",
+    "cognitive_skill": "Explanation",
+    "scenario_family": "circuit-change",
+    "question_template": "Select one complete verified case; use its prompt unchanged.",
+    "variable_definitions": {
+      "case_id": {
+        "allowed_values": [
+          "series-break",
+          "parallel-break",
+          "common-break",
+          "equal-series",
+          "unequal-parallel",
+          "independent-switches"
+        ],
+        "unit": "category",
+        "description": "Complete scenario and reasoning-task bundle"
+      }
+    },
+    "generation_constraints": [
+      "Never mix prompt, model answer or rubric across cases."
+    ],
+    "answer_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Copy the selected case model response."
+    },
+    "explanation_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Use selected case explanation and mark criteria."
+    },
+    "validation_requirements": [
+      "All cases have 2 rubric points.",
+      "All prompts differ.",
+      "No unrestricted substitutions."
+    ],
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "S:Types of circuits"
+    ],
+    "source_alignment_status": "source_supported",
+    "meaningful_variation_metadata": {
+      "family": "circuit-change",
+      "variation_type": "verified_scenario_and_task",
+      "case_ids": [
+        "series-break",
+        "parallel-break",
+        "common-break",
+        "equal-series",
+        "unequal-parallel",
+        "independent-switches"
+      ]
+    },
+    "cases": [
+      {
+        "id": "series-break",
+        "question_text": "Predict the result of one broken filament in a two-lamp series circuit and explain.",
+        "model_response": "Both lamps go out because the only path is broken.",
+        "criteria": [
+          "Both off",
+          "Only path interrupted"
+        ],
+        "cognitive_skill": "Prediction",
+        "common_mistakes": []
+      },
+      {
+        "id": "parallel-break",
+        "question_text": "Predict the result of one broken filament in two independent parallel lamp branches with an ideal supply.",
+        "model_response": "Only the failed branch goes out; the intact branch still has a complete supply path.",
+        "criteria": [
+          "Other lamp remains on",
+          "Separate path explanation"
+        ],
+        "cognitive_skill": "Prediction",
+        "common_mistakes": []
+      },
+      {
+        "id": "common-break",
+        "question_text": "Predict the result of a break in a wire between an ideal battery and both parallel branches.",
+        "model_response": "Both branches lose sustained current because the break interrupts their shared supply path.",
+        "criteria": [
+          "Both off",
+          "Shared-path explanation"
+        ],
+        "cognitive_skill": "Prediction",
+        "common_mistakes": []
+      },
+      {
+        "id": "equal-series",
+        "question_text": "Two equal resistors are in series across 8 V. Explain their voltage drops.",
+        "model_response": "Each has 4 V because equal resistances carry the same current and share the 8 V equally.",
+        "criteria": [
+          "4 V each",
+          "Equal resistance and same current justify equal sharing"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "unequal-parallel",
+        "question_text": "Explain why parallel branches at the same voltage can carry unequal currents.",
+        "model_response": "The branch resistances can differ. I = V/R gives more current in the lower-resistance branch.",
+        "criteria": [
+          "Different resistances",
+          "Correct use of I = V/R"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "independent-switches",
+        "question_text": "Justify parallel branches for two lamps that need independent control.",
+        "model_response": "Each branch has its own closed supply path. Opening a switch in one branch does not interrupt the other.",
+        "criteria": [
+          "Independent paths",
+          "Switch consequence"
+        ],
+        "cognitive_skill": "Justification",
+        "common_mistakes": []
+      }
+    ]
+  },
+  {
+    "template_id": "C03",
+    "template_kind": "conceptual",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "investigations",
+    "subtopic": "Investigations and engineering design",
+    "difficulty": "Medium",
+    "cognitive_skill": "Explanation",
+    "scenario_family": "method-critique",
+    "question_template": "Select one complete verified case; use its prompt unchanged.",
+    "variable_definitions": {
+      "case_id": {
+        "allowed_values": [
+          "surface-confound",
+          "push-confound",
+          "single-trial",
+          "ruler-zero",
+          "prototype-criteria",
+          "spring-speed"
+        ],
+        "unit": "category",
+        "description": "Complete scenario and reasoning-task bundle"
+      }
+    },
+    "generation_constraints": [
+      "Never mix prompt, model answer or rubric across cases."
+    ],
+    "answer_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Copy the selected case model response."
+    },
+    "explanation_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Use selected case explanation and mark criteria."
+    },
+    "validation_requirements": [
+      "All cases have 2 rubric points.",
+      "All prompts differ.",
+      "No unrestricted substitutions."
+    ],
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "E:Q14,Q31",
+      "S:rebound elaboration"
+    ],
+    "source_alignment_status": "added_practice",
+    "meaningful_variation_metadata": {
+      "family": "method-critique",
+      "variation_type": "verified_scenario_and_task",
+      "case_ids": [
+        "surface-confound",
+        "push-confound",
+        "single-trial",
+        "ruler-zero",
+        "prototype-criteria",
+        "spring-speed"
+      ]
+    },
+    "cases": [
+      {
+        "id": "surface-confound",
+        "question_text": "Evaluate comparing two balls if one is dropped on carpet and the other on wood.",
+        "model_response": "Ball type and surface both change, so rebound differences cannot be attributed to ball type alone. Use the same surface.",
+        "criteria": [
+          "Identifies confound",
+          "Explains same-surface correction"
+        ],
+        "cognitive_skill": "Evaluation",
+        "common_mistakes": []
+      },
+      {
+        "id": "push-confound",
+        "question_text": "Evaluate a comparison where one ball is dropped and the other is thrown down.",
+        "model_response": "Throwing adds kinetic energy, so the initial energy differs beyond the planned factor. Release both from rest.",
+        "criteria": [
+          "Extra input energy",
+          "Controlled release correction"
+        ],
+        "cognitive_skill": "Evaluation",
+        "common_mistakes": []
+      },
+      {
+        "id": "single-trial",
+        "question_text": "Evaluate declaring a ball reliable from a single rebound measurement.",
+        "model_response": "One result does not reveal variation. Repeat under the same conditions and compare spread as well as the mean.",
+        "criteria": [
+          "One-trial limitation",
+          "Repeats plus spread/mean"
+        ],
+        "cognitive_skill": "Evaluation",
+        "common_mistakes": []
+      },
+      {
+        "id": "ruler-zero",
+        "question_text": "Explain why a displaced ruler zero is not fixed by taking more trials.",
+        "model_response": "The same offset can affect every measurement. Correct the reference level; repeats mainly help assess random variation.",
+        "criteria": [
+          "Systematic offset persists",
+          "Correct zero/reference"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "prototype-criteria",
+        "question_text": "Evaluate choosing a robot only because it is fastest when it must also remain stable.",
+        "model_response": "Speed alone ignores the stability requirement. Test both speed and stability against stated criteria.",
+        "criteria": [
+          "Missing criterion",
+          "Evidence against both criteria"
+        ],
+        "cognitive_skill": "Evaluation",
+        "common_mistakes": []
+      },
+      {
+        "id": "spring-speed",
+        "question_text": "Explain why comparing launch speeds of the same car can compare kinetic energy from springs.",
+        "model_response": "With mass fixed, kinetic energy increases with speed squared. Use the same car and a consistent spring-loading and release protocol.",
+        "criteria": [
+          "Fixed mass and speed relationship",
+          "Controlled method"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      }
+    ]
+  },
+  {
+    "template_id": "C04",
+    "template_kind": "conceptual",
+    "subject": "Science",
+    "year_level": 8,
+    "unit": "Cycle 6 — Energy and Electrical Circuits",
+    "topic": "quantities",
+    "subtopic": "Current voltage and resistance",
+    "difficulty": "Medium",
+    "cognitive_skill": "Explanation",
+    "scenario_family": "electrical-misconceptions",
+    "question_template": "Select one complete verified case; use its prompt unchanged.",
+    "variable_definitions": {
+      "case_id": {
+        "allowed_values": [
+          "current-used-up",
+          "voltage-force",
+          "ammeter-parallel",
+          "electron-conventional",
+          "voltage-fixed",
+          "battery-storage"
+        ],
+        "unit": "category",
+        "description": "Complete scenario and reasoning-task bundle"
+      }
+    },
+    "generation_constraints": [
+      "Never mix prompt, model answer or rubric across cases."
+    ],
+    "answer_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Copy the selected case model response."
+    },
+    "explanation_generation_rules": {
+      "function_id": "verified_case",
+      "description": "Use selected case explanation and mark criteria."
+    },
+    "validation_requirements": [
+      "All cases have 2 rubric points.",
+      "All prompts differ.",
+      "No unrestricted substitutions."
+    ],
+    "marks": 2,
+    "rubric_status": "proposed_practice",
+    "source_reference": [
+      "C:Q17,Q19",
+      "S:Voltage/Current"
+    ],
+    "source_alignment_status": "source_supported",
+    "meaningful_variation_metadata": {
+      "family": "electrical-misconceptions",
+      "variation_type": "verified_scenario_and_task",
+      "case_ids": [
+        "current-used-up",
+        "voltage-force",
+        "ammeter-parallel",
+        "electron-conventional",
+        "voltage-fixed",
+        "battery-storage"
+      ]
+    },
+    "cases": [
+      {
+        "id": "current-used-up",
+        "question_text": "Evaluate: “The second lamp gets less current because the first lamp uses it up.” Assume a steady series circuit.",
+        "model_response": "Current is the same throughout the loop. The lamps transfer electrical energy; they do not consume charge.",
+        "criteria": [
+          "Same current",
+          "Energy versus charge distinction"
+        ],
+        "cognitive_skill": "Evaluation",
+        "common_mistakes": []
+      },
+      {
+        "id": "voltage-force",
+        "question_text": "Explain the limitation of calling voltage a force.",
+        "model_response": "Voltage measures energy transferred per unit charge in J/C; force is measured in newtons. A push analogy is not the definition.",
+        "criteria": [
+          "Energy per charge",
+          "Distinguishes force or units"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "ammeter-parallel",
+        "question_text": "Evaluate placing an ammeter directly across a battery to measure lamp current.",
+        "model_response": "An ammeter must be in series with the lamp. Across the battery it can create a low-resistance bypass and excessive current.",
+        "criteria": [
+          "Series placement",
+          "Bypass/excess-current risk"
+        ],
+        "cognitive_skill": "Evaluation",
+        "common_mistakes": []
+      },
+      {
+        "id": "electron-conventional",
+        "question_text": "Explain why electron arrows and conventional-current arrows point opposite ways in metal wires.",
+        "model_response": "Electrons carry negative charge. Conventional current is defined in the direction positive charge would move.",
+        "criteria": [
+          "Negative electrons",
+          "Positive-charge convention"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "voltage-fixed",
+        "question_text": "Explain why “more resistance means less current” needs a condition.",
+        "model_response": "I = V/R gives that comparison when voltage stays constant. A simultaneous change in voltage can change the result.",
+        "criteria": [
+          "Constant voltage condition",
+          "Formula-based explanation"
+        ],
+        "cognitive_skill": "Explanation",
+        "common_mistakes": []
+      },
+      {
+        "id": "battery-storage",
+        "question_text": "Evaluate: “A battery stores electric current.”",
+        "model_response": "It stores chemical energy. Current is the rate of charge flow when a circuit operates, not an energy store.",
+        "criteria": [
+          "Chemical energy storage",
+          "Current is a rate"
+        ],
+        "cognitive_skill": "Evaluation",
+        "common_mistakes": []
+      }
+    ]
+  }
+]
