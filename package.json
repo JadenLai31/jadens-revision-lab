@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/engine.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "test:browser": "node tests/browser.cjs",
-    "validate:pack": "node content/science/year-8/cycle-6/runtime/validate.mjs && python3 content/science/year-8/cycle-6/runtime/independent_check.py"
+    "validate:pack": "node content/science/year-8/cycle-6/runtime/validate.mjs && python3 content/science/year-8/cycle-6/runtime/independent_check.py",
+    "test:humanities": "node tests/humanities-browser.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

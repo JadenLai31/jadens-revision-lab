@@ -51,6 +51,33 @@ html = html.replace('<link rel="stylesheet" href="./src/cycle6/styles.css">',
                     '<style>' + (repo / 'src/cycle6/styles.css').read_text() + '</style>')
 html = html.replace('<script type="module" src="./src/cycle6/ui.mjs"></script>',
                     '<script type="module">' + script.replace('</script', '<\\/script') + '</script>')
+# Humanities is bundled into its own module scope to preserve subject isolation.
+humanities = repo / 'content/humanities/year-8/cycle-6/shogunate-japan'
+humanities_data = {p.stem: json.loads(p.read_text()) for p in (humanities / 'data').glob('*.json')}
+humanities_workbook = 'data:text/html;base64,' + base64.b64encode(
+    (humanities / 'Shogunate-Japan-Revision-Workbook.html').read_bytes()).decode()
+humanities_chunks = []
+for name in ['engine.mjs', 'shogunate.mjs']:
+    code = (repo / 'src/humanities' / name).read_text()
+    code = re.sub(r'^import\b[\s\S]*?;\n', '', code, flags=re.M)
+    code = re.sub(r'\bexport (?=(?:function|const))', '', code)
+    if name == 'shogunate.mjs':
+        code = replace_once(code, r'^const base = new URL\([\s\S]*?\);',
+                            'const base = new URL("./", document.baseURI);')
+        code = replace_once(code, r'await fetch\(new URL\(`data/\$\{name\}.json`, base\)\)',
+                            '({ok: true, json: async () => humanitiesFiles[name]})')
+        code = replace_once(code, r'new URL\("Shogunate-Japan-Revision-Workbook.html", base\)',
+                            'humanitiesWorkbook')
+        code = replace_once(code, r'target: "_blank",\s+rel: "noopener",',
+                            'download: "Shogunate-Japan-Revision-Workbook.html",')
+    humanities_chunks.append(code)
+humanities_script = ('const humanitiesFiles=' + json.dumps(humanities_data) + ';\n'
+                     'const humanitiesWorkbook=' + json.dumps(humanities_workbook) + ';\n'
+                     + '\n'.join(humanities_chunks))
+html = html.replace('<link rel="stylesheet" href="./src/humanities/styles.css">',
+                    '<style>' + (repo / 'src/humanities/styles.css').read_text() + '</style>')
+html = html.replace('<script type="module" src="./src/humanities/shogunate.mjs"></script>',
+                    '<script type="module">' + humanities_script.replace('</script', '<\\/script') + '</script>')
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(html)
 print(out)

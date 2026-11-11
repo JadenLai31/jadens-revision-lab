@@ -1,0 +1,126 @@
+.japan {
+  --blue: #e8c994;
+  --green: #9bcebd;
+}
+.japan-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 28px;
+}
+.japan-tools [aria-current="page"] {
+  border-color: #d8b77f;
+  background: #3b342a;
+  color: #ffe1ae;
+}
+.japan h2,
+.japan h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.025em;
+}
+.japan h2 {
+  margin-top: 18px;
+}
+.japan-study {
+  border-top: 3px solid #b89a68;
+}
+.japan-recall {
+  border-left: 3px solid #c9a872;
+  background: #233531;
+  border-radius: 0 10px 10px 0;
+  padding: 16px 20px;
+  margin: 20px 0;
+}
+.japan-recall p:last-child {
+  margin-bottom: 0;
+}
+.japan .japan-flashcard {
+  border-color: #b19b75;
+  background:
+    radial-gradient(ellipse at top left, #4b4b36, transparent 70%),
+    linear-gradient(135deg, #293d3d, #18273e);
+}
+.japan .japan-flashcard[data-flipped="true"] {
+  border-color: #80bca6;
+}
+.japan ruby {
+  ruby-position: over;
+  line-height: 2;
+}
+.japan rt {
+  font:
+    400 16px/1.5 Arial,
+    sans-serif;
+  color: #e8cfaa;
+}
+.japan-timeline {
+  list-style: none;
+  border-left: 2px solid #aa9064;
+  padding-left: 25px;
+  margin: 24px 0 24px 10px;
+}
+.japan-timeline li {
+  position: relative;
+  padding: 10px 0 20px 10px;
+}
+.japan-timeline li::before {
+  content: "";
+  position: absolute;
+  left: -32px;
+  top: 17px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #e8c994;
+}
+.japan-timeline strong {
+  color: #e8c994;
+  font-size: 21px;
+}
+.japan-source {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #877655;
+  background: #252c30;
+  border-left: 4px solid #d0af7a;
+  border-radius: 12px;
+}
+.japan-source strong {
+  color: #f1d2a6;
+}
+.japan-source p:last-child {
+  margin-bottom: 0;
+}
+.japan-assessment {
+  border-top: 3px solid #91b5a6;
+}
+.japan li {
+  margin-bottom: 10px;
+}
+.japan textarea {
+  min-height: 190px;
+}
+@media (max-width: 550px) {
+  .japan-tools .btn {
+    flex: 1 1 42%;
+    margin: 0;
+  }
+  .japan-recall,
+  .japan-source {
+    padding: 15px;
+  }
+  .japan .pack-flashcard-text {
+    font-size: 24px;
+  }
+}
+@media print {
+  .japan-tools {
+    display: none;
+  }
+  .japan-study,
+  .japan-recall,
+  .japan-source {
+    background: white;
+    color: black;
+  }
+}

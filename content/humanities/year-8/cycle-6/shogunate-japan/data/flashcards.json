@@ -1,0 +1,338 @@
+[
+  {
+    "id": "F01",
+    "front": "将軍",
+    "romaji": "shōgun",
+    "back": "Military ruler",
+    "context": "Who generally held practical governing power?"
+  },
+  {
+    "id": "F02",
+    "front": "征夷大将軍",
+    "romaji": "sei-i taishōgun",
+    "back": "Full historical title of the shogun, conventionally translated as barbarian-subduing great general",
+    "context": "Distinguish the title from the government."
+  },
+  {
+    "id": "F03",
+    "front": "幕府",
+    "romaji": "bakufu",
+    "back": "Government headed by a shogun",
+    "context": "A shogun headed a bakufu."
+  },
+  {
+    "id": "F04",
+    "front": "天皇",
+    "romaji": "tennō",
+    "back": "Emperor",
+    "context": "Imperial authority could legitimise military rule."
+  },
+  {
+    "id": "F05",
+    "front": "大名",
+    "romaji": "daimyō",
+    "back": "Regional lord",
+    "context": "A daimyō governed a domain."
+  },
+  {
+    "id": "F06",
+    "front": "侍",
+    "romaji": "samurai",
+    "back": "Member of the warrior class",
+    "context": "A samurai might serve a lord and work in administration."
+  },
+  {
+    "id": "F07",
+    "front": "武士",
+    "romaji": "bushi",
+    "back": "Warrior",
+    "context": "Compare this general word with samurai in the context of the unit."
+  },
+  {
+    "id": "F08",
+    "front": "浪人",
+    "romaji": "rōnin",
+    "back": "Masterless samurai",
+    "context": "A rōnin lacked a lord."
+  },
+  {
+    "id": "F09",
+    "front": "足軽",
+    "romaji": "ashigaru",
+    "back": "Foot soldier",
+    "context": "This describes a military role."
+  },
+  {
+    "id": "F10",
+    "front": "武士道",
+    "romaji": "bushidō",
+    "back": "Way of the warrior",
+    "context": "Name an ideal such as loyalty or honour."
+  },
+  {
+    "id": "F11",
+    "front": "藩",
+    "romaji": "han",
+    "back": "Domain under the Tokugawa system",
+    "context": "A daimyō governed a domain."
+  },
+  {
+    "id": "F12",
+    "front": "百姓",
+    "romaji": "hyakushō",
+    "back": "Commoner or peasant in this context, often a cultivator",
+    "context": "The meaning depends on the period and source."
+  },
+  {
+    "id": "F13",
+    "front": "職人",
+    "romaji": "shokunin",
+    "back": "Artisan or craftsperson",
+    "context": "An artisan made goods."
+  },
+  {
+    "id": "F14",
+    "front": "商人",
+    "romaji": "shōnin",
+    "back": "Merchant",
+    "context": "A merchant traded goods."
+  },
+  {
+    "id": "F15",
+    "front": "漢字",
+    "romaji": "kanji",
+    "back": "Characters of Chinese origin used in Japanese writing",
+    "context": "大名 is written in kanji."
+  },
+  {
+    "id": "F16",
+    "front": "ひらがな",
+    "romaji": "hiragana",
+    "back": "A Japanese syllabary",
+    "context": "だいみょう is the hiragana reading of 大名."
+  },
+  {
+    "id": "F17",
+    "front": "平氏",
+    "romaji": "Taira-shi",
+    "back": "Taira clan",
+    "context": "They were defeated at Dan-no-ura."
+  },
+  {
+    "id": "F18",
+    "front": "平家",
+    "romaji": "Heike",
+    "back": "Taira house",
+    "context": "The Tale of the Heike recounts the clan’s rise and fall."
+  },
+  {
+    "id": "F19",
+    "front": "源氏",
+    "romaji": "Genji",
+    "back": "Minamoto clan",
+    "context": "The Minamoto won at Dan-no-ura."
+  },
+  {
+    "id": "F20",
+    "front": "壇ノ浦",
+    "romaji": "Dan-no-ura",
+    "back": "Site of the naval battle of 1185",
+    "context": "Connect the place to the end of the Genpei War."
+  },
+  {
+    "id": "F21",
+    "front": "刀",
+    "romaji": "katana",
+    "back": "Japanese sword, also a broader word for sword depending on context",
+    "context": "Compare its conventional mounting with a tachi."
+  },
+  {
+    "id": "F22",
+    "front": "太刀",
+    "romaji": "tachi",
+    "back": "Sword traditionally suspended edge-down",
+    "context": "Compare with a katana."
+  },
+  {
+    "id": "F23",
+    "front": "薙刀",
+    "romaji": "naginata",
+    "back": "Polearm with a curved blade",
+    "context": "Associated in part with some warrior women."
+  },
+  {
+    "id": "F24",
+    "front": "短刀",
+    "romaji": "tantō",
+    "back": "Short blade or dagger",
+    "context": "短 suggests short."
+  },
+  {
+    "id": "F25",
+    "front": "手裏剣",
+    "romaji": "shuriken",
+    "back": "Small throwing implement",
+    "context": "Historical examples varied in form."
+  },
+  {
+    "id": "F26",
+    "front": "弓",
+    "romaji": "yumi",
+    "back": "Bow",
+    "context": "Recognise it in a historical artefact caption."
+  },
+  {
+    "id": "F27",
+    "front": "家紋",
+    "romaji": "kamon",
+    "back": "Family crest",
+    "context": "A crest can help identify family affiliation."
+  },
+  {
+    "id": "F28",
+    "front": "芸者",
+    "romaji": "geisha",
+    "back": "Trained entertainer in traditional arts",
+    "context": "Connect the term to performance and cultural life."
+  },
+  {
+    "id": "F29",
+    "front": "茶の湯",
+    "romaji": "chanoyu",
+    "back": "Japanese tea practice or tea ceremony",
+    "context": "A cultural practice involving formal preparation and serving of tea."
+  },
+  {
+    "id": "F30",
+    "front": "女武芸者",
+    "romaji": "onna-bugeisha",
+    "back": "Woman trained in martial arts",
+    "context": "Use specific evidence when discussing women of warrior households."
+  },
+  {
+    "id": "F31",
+    "front": "巴御前",
+    "romaji": "Tomoe Gozen",
+    "back": "Woman warrior remembered in literary tradition",
+    "context": "What can a literary portrayal tell us?"
+  },
+  {
+    "id": "F32",
+    "front": "鎖国",
+    "romaji": "sakoku",
+    "back": "Tokugawa restrictions on foreign contact",
+    "context": "Controlled channels of contact remained."
+  },
+  {
+    "id": "F33",
+    "front": "開国",
+    "romaji": "kaikoku",
+    "back": "Opening the country",
+    "context": "The class document also prints Keikoku in one place."
+  },
+  {
+    "id": "F34",
+    "front": "幕末",
+    "romaji": "bakumatsu",
+    "back": "Final years of the Tokugawa shogunate",
+    "context": "Perry’s arrival is a common starting point."
+  },
+  {
+    "id": "F35",
+    "front": "黒船",
+    "romaji": "kurofune",
+    "back": "Black Ships",
+    "context": "Connect Perry’s expedition to the 1850s."
+  },
+  {
+    "id": "F36",
+    "front": "尊皇攘夷",
+    "romaji": "sonnō jōi",
+    "back": "Revere the emperor, expel the barbarians",
+    "context": "Identify the two political ideas in the slogan."
+  },
+  {
+    "id": "F37",
+    "front": "戊辰戦争",
+    "romaji": "Boshin Sensō",
+    "back": "Boshin War",
+    "context": "Civil war in 1868–1869."
+  },
+  {
+    "id": "F38",
+    "front": "明治維新",
+    "romaji": "Meiji Ishin",
+    "back": "Meiji Restoration",
+    "context": "A new government ruled in the emperor’s name from 1868."
+  },
+  {
+    "id": "F39",
+    "front": "富国強兵",
+    "romaji": "fukoku kyōhei",
+    "back": "Enrich the country, strengthen the military",
+    "context": "Connect it to industry and military reform."
+  },
+  {
+    "id": "F40",
+    "front": "津波",
+    "romaji": "tsunami",
+    "back": "A series of waves caused by sudden water displacement",
+    "context": "Explain why some undersea earthquakes generate tsunamis."
+  },
+  {
+    "id": "F41",
+    "front": "北海道",
+    "romaji": "Hokkaidō",
+    "back": "Japan’s northernmost main island and a prefecture",
+    "context": "Place it north of Honshū."
+  },
+  {
+    "id": "F42",
+    "front": "本州",
+    "romaji": "Honshū",
+    "back": "Japan’s largest island",
+    "context": "Tokyo, Kyoto, Osaka and Hiroshima are on Honshū."
+  },
+  {
+    "id": "F43",
+    "front": "江戸",
+    "romaji": "Edo",
+    "back": "Seat of the Tokugawa shogunate, later renamed Tokyo",
+    "context": "Distinguish Edo from the imperial capital at Kyoto."
+  },
+  {
+    "id": "F44",
+    "front": "鎌倉",
+    "romaji": "Kamakura",
+    "back": "Seat of the first shogunate",
+    "context": "Link it to Minamoto no Yoritomo."
+  },
+  {
+    "id": "F45",
+    "front": "徳川家康",
+    "romaji": "Tokugawa Ieyasu",
+    "back": "Founder of the Tokugawa shogunate",
+    "context": "Appointed shogun in 1603."
+  },
+  {
+    "id": "F46",
+    "front": "源頼朝",
+    "romaji": "Minamoto no Yoritomo",
+    "back": "First Kamakura shogun",
+    "context": "Appointed in 1192."
+  },
+  {
+    "id": "F47",
+    "front": "源義経",
+    "romaji": "Minamoto no Yoshitsune",
+    "back": "Minamoto commander at Dan-no-ura",
+    "context": "Distinguish him from Yoritomo."
+  },
+  {
+    "id": "F48",
+    "front": "地震",
+    "romaji": "jishin",
+    "back": "Earthquake",
+    "context": "Connect earthquakes to tectonic processes."
+  }
+]

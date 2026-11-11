@@ -1,0 +1,159 @@
+{
+  "title": "Shogunate Japan practice assessment",
+  "totalMarks": 28,
+  "sources": {
+    "A": "An original museum-label exercise. A curved sword is dated to the Edo period. The blade and its surviving edge-down mount have separate catalogue dates. The label gives no record of who first owned either piece.",
+    "B": "An original comparison based on the class unit. One argument for opening ports was that foreign knowledge could help Japan respond to pressure. A competing argument held that concessions could weaken political independence. This exercise summarises positions without identifying individual speakers."
+  },
+  "questions": [
+    {
+      "id": "P01",
+      "topic": "TERMS",
+      "difficulty": "Easy",
+      "type": "multiple_choice",
+      "prompt": "Which term means the way of the warrior?",
+      "marks": 1,
+      "answer": "Bushidō refers to ideals associated with warrior conduct.",
+      "markingGuide": "1 mark for the correct choice.",
+      "assessment": true,
+      "choices": [
+        "Sakoku",
+        "Bakumatsu",
+        "Kaikoku",
+        "Bushidō"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "P02",
+      "topic": "HIERARCHY",
+      "difficulty": "Easy",
+      "type": "multiple_choice",
+      "prompt": "Which role was most directly responsible for governing a regional domain?",
+      "marks": 1,
+      "answer": "The daimyō was the regional lord.",
+      "markingGuide": "1 mark for the correct choice.",
+      "assessment": true,
+      "choices": [
+        "Daimyō",
+        "Tennō",
+        "Shōnin",
+        "Ashigaru"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "P03",
+      "topic": "END",
+      "difficulty": "Easy",
+      "type": "multiple_choice",
+      "prompt": "Which event followed Yoshinobu’s return of governing authority in 1867?",
+      "marks": 1,
+      "answer": "The Boshin War began in 1868.",
+      "markingGuide": "1 mark for the correct choice.",
+      "assessment": true,
+      "choices": [
+        "Perry’s first arrival",
+        "Battle of Dan-no-ura",
+        "Osaka Rebellion",
+        "Boshin War"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "P04",
+      "topic": "MODERN",
+      "difficulty": "Easy",
+      "type": "multiple_choice",
+      "prompt": "What would best show the proportion of older residents in Japan?",
+      "marks": 1,
+      "answer": "An age distribution directly shows the share of residents in each age group.",
+      "markingGuide": "1 mark for the correct choice.",
+      "assessment": true,
+      "choices": [
+        "A tectonic map",
+        "A map legend",
+        "Population by age group",
+        "An elevation profile"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "P05",
+      "topic": "TERMS",
+      "difficulty": "Easy",
+      "type": "short_answer",
+      "prompt": "Define daimyō and give one responsibility.",
+      "marks": 2,
+      "answer": "A daimyō was a regional lord who governed a domain and could owe military support to the shogun.",
+      "markingGuide": "1 for the definition and 1 for an accurate responsibility.",
+      "assessment": true
+    },
+    {
+      "id": "P06",
+      "topic": "DAN-NO-URA",
+      "difficulty": "Medium",
+      "type": "short_answer",
+      "prompt": "Explain why a battle in 1185 and an appointment in 1192 can both mark stages in the rise of the shogunate.",
+      "marks": 2,
+      "answer": "Dan-no-ura ended the Taira’s dominance and strengthened Minamoto power. Yoritomo’s 1192 appointment formally recognised his position as shogun.",
+      "markingGuide": "1 per stage with a correct link to power.",
+      "assessment": true
+    },
+    {
+      "id": "P07",
+      "topic": "WOMEN",
+      "difficulty": "Medium",
+      "type": "short_answer",
+      "prompt": "Compare a woman’s possible responsibilities in a warrior household with those in a merchant household.",
+      "marks": 3,
+      "answer": "A woman in a warrior household might manage family affairs or receive martial training. A woman in a merchant household might help keep accounts or run the business. Household status and livelihood influenced the work available.",
+      "markingGuide": "1 per suitable role and 1 for explaining the difference.",
+      "assessment": true
+    },
+    {
+      "id": "P08",
+      "topic": "MODERN",
+      "difficulty": "Medium",
+      "type": "short_answer",
+      "prompt": "Explain why an offshore earthquake can endanger coastal settlements far from its origin.",
+      "marks": 3,
+      "answer": "If the seafloor moves enough to displace water, the disturbance can travel as tsunami waves. When waves reach a coast, they can flood low-lying places.",
+      "markingGuide": "1 for displacement, 1 for wave travel and 1 for coastal effect.",
+      "assessment": true
+    },
+    {
+      "id": "P09",
+      "topic": "ARTEFACTS",
+      "difficulty": "Hard",
+      "type": "source_analysis",
+      "prompt": "Using Source A, identify two observations and explain one inference you can draw and one limit.",
+      "marks": 4,
+      "answer": "The blade and mount have different dates and the mount is edge-down. The mount is evidence of one historical carrying arrangement. The label cannot establish who owned it first or whether that mount originally belonged to this blade.",
+      "markingGuide": "1 per observation, 1 for an inference supported by the label and 1 for a limit.",
+      "assessment": true
+    },
+    {
+      "id": "P10",
+      "topic": "END",
+      "difficulty": "Hard",
+      "type": "source_analysis",
+      "prompt": "Using Source B, explain the two positions and identify one limitation. Name a source you could use to investigate that limitation.",
+      "marks": 4,
+      "answer": "Supporters valued foreign knowledge as a way to respond to pressure. Opponents worried about losing independence. The exercise leaves speakers unnamed. A dated letter or petition by an identifiable person could show who held a view and why.",
+      "markingGuide": "1 per position, 1 for a limitation and 1 for a relevant source.",
+      "assessment": true
+    },
+    {
+      "id": "P11",
+      "topic": "END",
+      "difficulty": "Hard",
+      "type": "extended_response",
+      "prompt": "To what extent was the end of the shogunate caused by domestic rivalry? Compare domestic rivalry with foreign pressure using at least two named events.",
+      "marks": 6,
+      "answer": "Domestic rivalry determined who took power. Perry’s arrival in 1853 pushed the shogunate to negotiate, and the resulting concessions deepened disagreements over its leadership. In 1867 Yoshinobu returned governing authority, but the Boshin War followed as rival groups fought over the new government. Foreign pressure accelerated the crisis, while the struggle within Japan decided its outcome.",
+      "markingGuide": "Award 1 each for a judgement, named domestic event, named foreign-pressure event, an explanation of each factor, and a reasoned comparison.",
+      "assessment": true
+    }
+  ]
+}

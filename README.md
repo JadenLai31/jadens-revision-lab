@@ -52,3 +52,13 @@ python3 scripts/build-review.py /tmp/jadens-cycle6-review.html
 ```
 
 This embeds the current modules, content and diagrams in a single HTML review file; the modular production files remain unchanged. The review copy offers the workbook as a download. Its local progress is independent when opened under a different origin. No publication is performed.
+
+## Humanities — Shogunate Japan
+
+On the Shogunate Japan development branch, open Humanities → Year 8 → Cycle 6 → Shogunate Japan. The topic includes seven study sections, a seven-entry timeline, 48 Japanese vocabulary cards (with optional pronunciation), 56 practice questions, and an 11-question / 28-mark Full Practice assessment.
+
+The original uploaded files are under `content/humanities/year-8/cycle-6/shogunate-japan/`. `src/humanities/` validates and displays those records separately from Science. The pack provides fixed questions rather than procedural templates. Source A and Source B are labelled original practice exercises, not historical primary sources. MC choices use the supplied zero-based `correctIndex`; written responses use the supplied model answers and marking guides for self-assessment.
+
+Progress is stored under `jadens-shogunate-japan-v1`, with ratings, checklists, settings, the current session and up to 20 completed sessions. Science storage is not modified. Browser reset/export controls apply only to Humanities. Answers remain hidden during practice and are shown during post-submission review. The workbook is also available for printing.
+
+`npm test` includes Humanities engine/storage checks. With the HTTP server running, use `REVISION_TEST_URL=http://127.0.0.1:8000/ npm run test:humanities` for the Humanities browser checks. The review exporter now embeds both subjects and both printable workbooks.

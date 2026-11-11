@@ -1,0 +1,765 @@
+[
+  {
+    "id": "Q01",
+    "topic": "TERMS",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which word names the government headed by a shogun?",
+    "marks": 1,
+    "answer": "Bakufu names the government itself.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Daimyō",
+      "Rōnin",
+      "Bakufu",
+      "Bushido"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q02",
+    "topic": "TERMS",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "What does rōnin describe?",
+    "marks": 1,
+    "answer": "A rōnin was a samurai without a lord.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "A retired emperor",
+      "A masterless samurai",
+      "A merchant official",
+      "A regional lord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "Q03",
+    "topic": "TERMS",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which pair matches a word with its meaning?",
+    "marks": 1,
+    "answer": "Kaikoku describes opening the country.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Bakufu — warrior values",
+      "Kaikoku — opening the country",
+      "Ashigaru — regional lord",
+      "Daimyō — merchant"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "Q04",
+    "topic": "TERMS",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Distinguish shogun from shogunate.",
+    "marks": 2,
+    "answer": "The shogun was the officeholder. The shogunate was the government headed by that person.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q05",
+    "topic": "TERMS",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Why is calling Bushido a single rulebook for every samurai misleading?",
+    "marks": 2,
+    "answer": "Bushido names ideals associated with warriors. These ideals developed over time and practice varied.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q06",
+    "topic": "TERMS",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "A warrior loses his lord but keeps his warrior background. Which word fits and why?",
+    "marks": 2,
+    "answer": "Rōnin fits because the term describes a samurai without a lord.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q07",
+    "topic": "TERMS",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Explain why legitimacy and practical power could belong to different people.",
+    "marks": 3,
+    "answer": "Imperial recognition could legitimise the shogun’s office. The shogun exercised practical power through military leadership and administration.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q08",
+    "topic": "TERMS",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Explain why ashigaru and rōnin do not represent equivalent ranks.",
+    "marks": 3,
+    "answer": "Ashigaru describes the role of a foot soldier. Rōnin describes a warrior’s lack of a lord. They classify people by different criteria.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q09",
+    "topic": "HIERARCHY",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "In the simplified four-status model, who ranked directly below farmers?",
+    "marks": 1,
+    "answer": "Artisans ranked below farmers and above merchants in the model.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Warriors",
+      "Daimyō",
+      "Artisans",
+      "Merchants"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q10",
+    "topic": "HIERARCHY",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Who governed regional domains?",
+    "marks": 1,
+    "answer": "Daimyō were regional lords.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Daimyō",
+      "Rōnin",
+      "Ashigaru",
+      "Artisans"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "Q11",
+    "topic": "HIERARCHY",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which example best shows that wealth and status could differ?",
+    "marks": 1,
+    "answer": "Commercial wealth did not automatically raise a merchant’s formal rank.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "An emperor confers a title",
+      "An artisan makes goods",
+      "A prosperous merchant has low formal rank",
+      "A soldier serves a lord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q12",
+    "topic": "HIERARCHY",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Give one reason farmers ranked above merchants in the idealised hierarchy.",
+    "marks": 2,
+    "answer": "Food production was regarded as essential, while trading goods was valued less in the status model.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q13",
+    "topic": "HIERARCHY",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Explain one way a daimyō depended on people of lower rank.",
+    "marks": 2,
+    "answer": "A daimyō relied on retainers for service or on farmers for food and revenue. These resources helped sustain the domain.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q14",
+    "topic": "HIERARCHY",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Give one similarity and one difference between feudal Japan and medieval Europe.",
+    "marks": 2,
+    "answer": "Regional lords in both relied on warrior service. In Japan imperial and military leadership could rest with different officeholders, whereas some European monarchs led armies directly.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q15",
+    "topic": "HIERARCHY",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "A textbook pyramid places merchants at the bottom. What qualification would improve the claim?",
+    "marks": 3,
+    "answer": "Merchants ranked lowest among the four categories shown. Other people experienced exclusion from that model, and social reality also varied.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q16",
+    "topic": "HIERARCHY",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Explain how a hierarchy diagram could confuse an emperor’s rank with the power to make decisions.",
+    "marks": 3,
+    "answer": "A diagram may put the emperor first because of formal standing. It may hide the shogun’s day-to-day power and reliance on regional lords.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q17",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "In which year did the Battle of Dan-no-ura take place?",
+    "marks": 1,
+    "answer": "The battle occurred in 1185.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "1180",
+      "1192",
+      "1185",
+      "1184"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q18",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which side was defeated at Dan-no-ura?",
+    "marks": 1,
+    "answer": "The Taira, also called the Heike, lost the battle.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Minamoto",
+      "Taira",
+      "Meiji forces",
+      "Tokugawa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "Q19",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which figure led Minamoto forces at Dan-no-ura?",
+    "marks": 1,
+    "answer": "Yoshitsune was the battlefield commander.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Minamoto no Yoshitsune",
+      "Tokugawa Ieyasu",
+      "Minamoto no Yoritomo",
+      "Emperor Antoku"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "Q20",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Put Yoritomo’s shogun appointment, the Genpei War’s outbreak and Dan-no-ura in order.",
+    "marks": 2,
+    "answer": "Genpei War outbreak, Dan-no-ura in 1185, Yoritomo’s appointment in 1192.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q21",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "What does the class story about Heike crabs reveal about the battle’s legacy?",
+    "marks": 2,
+    "answer": "It shows how local folklore linked the fallen Taira warriors to the landscape and kept memory of the battle alive.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q22",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Distinguish Yoshitsune’s role from Yoritomo’s.",
+    "marks": 2,
+    "answer": "Yoshitsune led Minamoto forces at the battle. Yoritomo consolidated Minamoto rule and became shogun.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q23",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "A retelling gives an exact speech by a person aboard a ship. How would you check it?",
+    "marks": 3,
+    "answer": "Identify the earliest surviving account, check how close it is to the event and compare independent accounts. Exact dialogue needs stronger evidence than a retelling alone.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q24",
+    "topic": "DAN-NO-URA",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Explain why the Minamoto victory mattered even though Yoritomo’s appointment came later.",
+    "marks": 3,
+    "answer": "The defeat removed a major rival and helped consolidate Minamoto power. Political institutions and recognition developed over time, including the 1192 appointment.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q25",
+    "topic": "ARTEFACTS",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which term describes a short blade or dagger?",
+    "marks": 1,
+    "answer": "Tantō refers to a short blade.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Naginata",
+      "Yumi",
+      "Tachi",
+      "Tantō"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "Q26",
+    "topic": "ARTEFACTS",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which item combines a long shaft with a curved blade?",
+    "marks": 1,
+    "answer": "A naginata is a polearm.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Katana",
+      "Shuriken",
+      "Naginata",
+      "Tantō"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q27",
+    "topic": "ARTEFACTS",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which statement about shuriken is most accurate?",
+    "marks": 1,
+    "answer": "Surviving examples show varied forms.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "All were polearms",
+      "All were identical stars",
+      "All were swords",
+      "Historical examples had varied shapes"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "Q28",
+    "topic": "ARTEFACTS",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "State one similarity and one difference between a tachi and a katana.",
+    "marks": 2,
+    "answer": "Both are curved Japanese swords. A tachi was conventionally suspended edge-down, whereas a katana was usually worn edge-up.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q29",
+    "topic": "ARTEFACTS",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Name two details to record from a museum artefact label when comparing objects.",
+    "marks": 2,
+    "answer": "Any two such as date, maker, materials, provenance or museum catalogue number.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q30",
+    "topic": "ARTEFACTS",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "How could you caption a naginata to avoid implying that all women used one?",
+    "marks": 2,
+    "answer": "Identify it as a polearm associated with some women of warrior households. Mention that it also had a wider history.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q31",
+    "topic": "ARTEFACTS",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Why is a sword in a museum insufficient evidence for what all samurai owned?",
+    "marks": 3,
+    "answer": "It gives evidence about one object, which may be unusually valuable or well preserved. Ownership could vary by wealth, period and role.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q32",
+    "topic": "ARTEFACTS",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "A film and a museum catalogue disagree about an object’s shape. Which would you use for identification and why?",
+    "marks": 3,
+    "answer": "Use the museum catalogue because it documents a specific surviving object. A film prop may be designed for storytelling.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q33",
+    "topic": "WOMEN",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which example best shows the contribution of farming women?",
+    "marks": 1,
+    "answer": "Farming women contributed labour to the household economy.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Working in agricultural production",
+      "Providing all court appointments",
+      "Commanding all domains",
+      "Appointing the shogun"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "Q34",
+    "topic": "WOMEN",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Why is Tomoe Gozen often discussed in this unit?",
+    "marks": 1,
+    "answer": "Her portrayal as a warrior challenges expectations about gender roles.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "She signed the Kanagawa agreement",
+      "She is remembered as a woman warrior",
+      "She began the Meiji Restoration",
+      "She was a Tokugawa ruler"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "Q35",
+    "topic": "WOMEN",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "What is a geisha in the context of this unit?",
+    "marks": 1,
+    "answer": "Geisha were trained entertainers.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "A regional ruler",
+      "A trained entertainer in traditional arts",
+      "A type of polearm",
+      "A masterless warrior"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q36",
+    "topic": "WOMEN",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Explain how an elite marriage might affect two families.",
+    "marks": 2,
+    "answer": "Marriage could build or maintain an alliance, joining families with shared political or social interests.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q37",
+    "topic": "WOMEN",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Compare work in a farming household and a merchant household.",
+    "marks": 2,
+    "answer": "Farming women might produce food, while merchant women might contribute to a family business. Both types of work supported household income or survival.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q38",
+    "topic": "WOMEN",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Why is it useful to specify the time period when describing women’s inheritance?",
+    "marks": 2,
+    "answer": "Rights and practices changed over time and varied with household circumstances. One example cannot establish a rule for all periods.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q39",
+    "topic": "WOMEN",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "How can a literary account of Tomoe Gozen help a historian even if some events are uncertain?",
+    "marks": 3,
+    "answer": "It shows how a woman warrior was portrayed and remembered. Confirming specific deeds would require comparison with other evidence.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q40",
+    "topic": "WOMEN",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Evaluate the claim that social rank alone explains women’s experiences.",
+    "marks": 3,
+    "answer": "Rank affected work and marriage expectations, but period, household economy and individual circumstances also mattered. Compare a farming example with an elite or merchant example.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q41",
+    "topic": "END",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which event happened first?",
+    "marks": 1,
+    "answer": "The Osaka Rebellion took place in 1837.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Boshin War began",
+      "Meiji Restoration began",
+      "Osaka Rebellion",
+      "Perry arrived"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q42",
+    "topic": "END",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which term names the final years of Tokugawa rule?",
+    "marks": 1,
+    "answer": "Bakumatsu refers to the closing years of the shogunate.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Bushido",
+      "Bakumatsu",
+      "Daimyō",
+      "Kaikoku"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "Q43",
+    "topic": "END",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which slogan connects imperial authority with opposition to foreigners?",
+    "marks": 1,
+    "answer": "Sonnō Jōi called for revering the emperor and expelling foreigners.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Sakoku",
+      "Bushido",
+      "Sonnō Jōi",
+      "Fukoku Kyōhei"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q44",
+    "topic": "END",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "How was sakoku compatible with some foreign trade?",
+    "marks": 2,
+    "answer": "The government controlled access through restricted channels. Regulation limited contact while permitting selected trade and diplomacy.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q45",
+    "topic": "END",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Distinguish the 1854 Convention of Kanagawa from a general opening to commerce.",
+    "marks": 2,
+    "answer": "It gave US ships limited access to two ports and addressed matters such as supplies. Broader trade agreements came later.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q46",
+    "topic": "END",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Why did the transfer of authority in 1867 fail to settle the conflict?",
+    "marks": 2,
+    "answer": "Rival groups still disagreed over who would control the new government and the role of the Tokugawa. Civil war followed.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q47",
+    "topic": "END",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Explain how foreign pressure intensified a domestic political problem.",
+    "marks": 3,
+    "answer": "Perry’s arrival forced the shogunate to make difficult concessions. Disagreement over its response strengthened rival claims about who should govern.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q48",
+    "topic": "END",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Explain one continuity and one change across the Meiji Restoration.",
+    "marks": 3,
+    "answer": "The emperor remained a source of legitimacy. A government in the emperor’s name replaced Tokugawa military government and pursued reforms such as national conscription.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q49",
+    "topic": "MODERN",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "What is an archipelago?",
+    "marks": 1,
+    "answer": "An archipelago is a group of islands.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "A coastal plain",
+      "A population pyramid",
+      "A group of islands",
+      "A tectonic boundary"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "Q50",
+    "topic": "MODERN",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "Which label identifies an island and prefecture?",
+    "marks": 1,
+    "answer": "Hokkaidō is an island and prefecture.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Kyoto",
+      "Hiroshima",
+      "Osaka",
+      "Hokkaidō"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "Q51",
+    "topic": "MODERN",
+    "difficulty": "Easy",
+    "type": "multiple_choice",
+    "prompt": "In BOLTSS, what tells the reader what the map symbols mean?",
+    "marks": 1,
+    "answer": "A legend explains symbols and colours.",
+    "markingGuide": "1 mark for the correct choice.",
+    "assessment": false,
+    "choices": [
+      "Border",
+      "Scale",
+      "Orientation",
+      "Legend"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "Q52",
+    "topic": "MODERN",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Explain why every earthquake does not produce a tsunami.",
+    "marks": 2,
+    "answer": "A tsunami can form when enough water is displaced. Many earthquakes are inland or do not move the sea floor enough.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q53",
+    "topic": "MODERN",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "What could the age structure of a population tell a planner?",
+    "marks": 2,
+    "answer": "It shows the proportions of people in different age groups. Planners can use it to estimate demand for services such as schools or aged care.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q54",
+    "topic": "MODERN",
+    "difficulty": "Medium",
+    "type": "short_answer",
+    "prompt": "Why would a map need both a scale and an orientation marker?",
+    "marks": 2,
+    "answer": "Scale relates map distance to real distance. Orientation shows direction.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q55",
+    "topic": "MODERN",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Why can two coastal communities exposed to similar hazards have different levels of risk?",
+    "marks": 3,
+    "answer": "Exposure and vulnerability vary with elevation, population, building standards, warning systems and evacuation access. Explain at least two factors.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  },
+  {
+    "id": "Q56",
+    "topic": "MODERN",
+    "difficulty": "Hard",
+    "type": "short_answer",
+    "prompt": "Suppose a remote community has a rising share of older residents. Propose a response and one way to measure its effect.",
+    "marks": 3,
+    "answer": "A mobile health service could improve access for residents who struggle to travel. Compare missed appointments or travel time before and after the service.",
+    "markingGuide": "Award credit for accurate points in the model answer and accept equivalent wording.",
+    "assessment": false
+  }
+]
