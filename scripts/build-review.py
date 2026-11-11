@@ -45,6 +45,8 @@ script = ('const reviewFiles=' + json.dumps(embedded) + ';\n'
           'const reviewAssets=' + json.dumps(assets) + ';\n'
           'const reviewWorkbook=' + json.dumps(workbook) + ';\n' + '\n'.join(chunks))
 html = (repo / 'index.html').read_text()
+html = html.replace('<script src="./src/humanities/navigation.js"></script>',
+                    '<script>' + (repo / 'src/humanities/navigation.js').read_text() + '</script>')
 html = html.replace('<link rel="stylesheet" href="./src/cycle6/styles.css">',
                     '<style>' + (repo / 'src/cycle6/styles.css').read_text() + '</style>')
 html = html.replace('<script type="module" src="./src/cycle6/ui.mjs"></script>',
